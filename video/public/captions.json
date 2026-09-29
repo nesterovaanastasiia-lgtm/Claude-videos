@@ -1,0 +1,2032 @@
+[
+{
+"text": " Український",
+"startMs": 180,
+"endMs": 1179,
+"timestampMs": 680,
+"confidence": null
+},
+{
+"text": " виробник,",
+"startMs": 1180,
+"endMs": 1579,
+"timestampMs": 1380,
+"confidence": null
+},
+{
+"text": " який",
+"startMs": 1680,
+"endMs": 1879,
+"timestampMs": 1780,
+"confidence": null
+},
+{
+"text": " продається",
+"startMs": 1880,
+"endMs": 2559,
+"timestampMs": 2220,
+"confidence": null
+},
+{
+"text": " понад",
+"startMs": 2560,
+"endMs": 2819,
+"timestampMs": 2690,
+"confidence": null
+},
+{
+"text": " у",
+"startMs": 2820,
+"endMs": 2999,
+"timestampMs": 2910,
+"confidence": null
+},
+{
+"text": " ста",
+"startMs": 3000,
+"endMs": 3439,
+"timestampMs": 3220,
+"confidence": null
+},
+{
+"text": " країнах",
+"startMs": 3440,
+"endMs": 4059,
+"timestampMs": 3749,
+"confidence": null
+},
+{
+"text": " світу.",
+"startMs": 4060,
+"endMs": 4499,
+"timestampMs": 4280,
+"confidence": null
+},
+{
+"text": " І",
+"startMs": 4680,
+"endMs": 4979,
+"timestampMs": 4830,
+"confidence": null
+},
+{
+"text": " найцікавіше",
+"startMs": 4980,
+"endMs": 5679,
+"timestampMs": 5330,
+"confidence": null
+},
+{
+"text": " не",
+"startMs": 5680,
+"endMs": 5919,
+"timestampMs": 5800,
+"confidence": null
+},
+{
+"text": " те,",
+"startMs": 5920,
+"endMs": 6119,
+"timestampMs": 6020,
+"confidence": null
+},
+{
+"text": " що",
+"startMs": 6200,
+"endMs": 6379,
+"timestampMs": 6290,
+"confidence": null
+},
+{
+"text": " він",
+"startMs": 6380,
+"endMs": 6539,
+"timestampMs": 6460,
+"confidence": null
+},
+{
+"text": " робить,",
+"startMs": 6540,
+"endMs": 6959,
+"timestampMs": 6750,
+"confidence": null
+},
+{
+"text": " а",
+"startMs": 7000,
+"endMs": 7299,
+"timestampMs": 7149,
+"confidence": null
+},
+{
+"text": " те,",
+"startMs": 7300,
+"endMs": 7499,
+"timestampMs": 7400,
+"confidence": null
+},
+{
+"text": " як",
+"startMs": 7540,
+"endMs": 7999,
+"timestampMs": 7770,
+"confidence": null
+},
+{
+"text": " він",
+"startMs": 8000,
+"endMs": 8179,
+"timestampMs": 8090,
+"confidence": null
+},
+{
+"text": " заробляє",
+"startMs": 8180,
+"endMs": 8659,
+"timestampMs": 8420,
+"confidence": null
+},
+{
+"text": " Давайте",
+"startMs": 10090,
+"endMs": 10439,
+"timestampMs": 10264,
+"confidence": null
+},
+{
+"text": " спробуємо",
+"startMs": 10440,
+"endMs": 10959,
+"timestampMs": 10700,
+"confidence": null
+},
+{
+"text": " вгадати,",
+"startMs": 10960,
+"endMs": 11299,
+"timestampMs": 11130,
+"confidence": null
+},
+{
+"text": " про",
+"startMs": 11300,
+"endMs": 11419,
+"timestampMs": 11360,
+"confidence": null
+},
+{
+"text": " яку",
+"startMs": 11420,
+"endMs": 11559,
+"timestampMs": 11490,
+"confidence": null
+},
+{
+"text": " компанію",
+"startMs": 11560,
+"endMs": 12039,
+"timestampMs": 11800,
+"confidence": null
+},
+{
+"text": " я",
+"startMs": 12040,
+"endMs": 12139,
+"timestampMs": 12090,
+"confidence": null
+},
+{
+"text": " говорю.",
+"startMs": 12140,
+"endMs": 12359,
+"timestampMs": 12250,
+"confidence": null
+},
+{
+"text": " Ця",
+"startMs": 12640,
+"endMs": 13099,
+"timestampMs": 12870,
+"confidence": null
+},
+{
+"text": " компанія",
+"startMs": 13100,
+"endMs": 13559,
+"timestampMs": 13330,
+"confidence": null
+},
+{
+"text": " народилась",
+"startMs": 13560,
+"endMs": 13919,
+"timestampMs": 13740,
+"confidence": null
+},
+{
+"text": " у",
+"startMs": 13920,
+"endMs": 14139,
+"timestampMs": 14030,
+"confidence": null
+},
+{
+"text": " Києві",
+"startMs": 14140,
+"endMs": 14659,
+"timestampMs": 14400,
+"confidence": null
+},
+{
+"text": " і",
+"startMs": 14660,
+"endMs": 14839,
+"timestampMs": 14750,
+"confidence": null
+},
+{
+"text": " виросла",
+"startMs": 14840,
+"endMs": 15259,
+"timestampMs": 15050,
+"confidence": null
+},
+{
+"text": " в",
+"startMs": 15260,
+"endMs": 15379,
+"timestampMs": 15320,
+"confidence": null
+},
+{
+"text": " один",
+"startMs": 15380,
+"endMs": 15759,
+"timestampMs": 15570,
+"confidence": null
+},
+{
+"text": " з",
+"startMs": 17550,
+"endMs": 21089,
+"timestampMs": 19320,
+"confidence": null
+},
+{
+"text": " найбільших",
+"startMs": 21090,
+"endMs": 22009,
+"timestampMs": 21550,
+"confidence": null
+},
+{
+"text": " бізнесів",
+"startMs": 22010,
+"endMs": 22709,
+"timestampMs": 22360,
+"confidence": null
+},
+{
+"text": " своєї",
+"startMs": 22710,
+"endMs": 23349,
+"timestampMs": 23030,
+"confidence": null
+},
+{
+"text": " галузі",
+"startMs": 23350,
+"endMs": 23949,
+"timestampMs": 23650,
+"confidence": null
+},
+{
+"text": " у",
+"startMs": 23950,
+"endMs": 24049,
+"timestampMs": 24000,
+"confidence": null
+},
+{
+"text": " Європі.",
+"startMs": 24050,
+"endMs": 24609,
+"timestampMs": 24330,
+"confidence": null
+},
+{
+"text": " Її",
+"startMs": 24870,
+"endMs": 25569,
+"timestampMs": 25220,
+"confidence": null
+},
+{
+"text": " пристрої",
+"startMs": 25570,
+"endMs": 26089,
+"timestampMs": 25830,
+"confidence": null
+},
+{
+"text": " майже",
+"startMs": 26090,
+"endMs": 26489,
+"timestampMs": 26290,
+"confidence": null
+},
+{
+"text": " завжди",
+"startMs": 26490,
+"endMs": 26949,
+"timestampMs": 26720,
+"confidence": null
+},
+{
+"text": " встановлює",
+"startMs": 26950,
+"endMs": 27549,
+"timestampMs": 27250,
+"confidence": null
+},
+{
+"text": " не",
+"startMs": 27550,
+"endMs": 27729,
+"timestampMs": 27640,
+"confidence": null
+},
+{
+"text": " той,",
+"startMs": 27730,
+"endMs": 28049,
+"timestampMs": 27890,
+"confidence": null
+},
+{
+"text": " хто",
+"startMs": 28050,
+"endMs": 28249,
+"timestampMs": 28150,
+"confidence": null
+},
+{
+"text": " їх",
+"startMs": 28250,
+"endMs": 28409,
+"timestampMs": 28330,
+"confidence": null
+},
+{
+"text": " купує,",
+"startMs": 28410,
+"endMs": 29049,
+"timestampMs": 28730,
+"confidence": null
+},
+{
+"text": " і",
+"startMs": 29050,
+"endMs": 29629,
+"timestampMs": 29340,
+"confidence": null
+},
+{
+"text": " гроші",
+"startMs": 29630,
+"endMs": 30509,
+"timestampMs": 30070,
+"confidence": null
+},
+{
+"text": " компанія",
+"startMs": 30510,
+"endMs": 31009,
+"timestampMs": 30760,
+"confidence": null
+},
+{
+"text": " бере",
+"startMs": 31010,
+"endMs": 31249,
+"timestampMs": 31130,
+"confidence": null
+},
+{
+"text": " не",
+"startMs": 31250,
+"endMs": 31469,
+"timestampMs": 31360,
+"confidence": null
+},
+{
+"text": " лише",
+"startMs": 31470,
+"endMs": 31829,
+"timestampMs": 31650,
+"confidence": null
+},
+{
+"text": " з",
+"startMs": 31830,
+"endMs": 32169,
+"timestampMs": 32000,
+"confidence": null
+},
+{
+"text": " покупця.",
+"startMs": 32170,
+"endMs": 32849,
+"timestampMs": 32510,
+"confidence": null
+},
+{
+"text": " Це",
+"startMs": 33350,
+"endMs": 33669,
+"timestampMs": 33510,
+"confidence": null
+},
+{
+"text": " Ajax",
+"startMs": 33670,
+"endMs": 34329,
+"timestampMs": 34000,
+"confidence": null
+},
+{
+"text": " Systems.",
+"startMs": 34330,
+"endMs": 34749,
+"timestampMs": 34540,
+"confidence": null
+},
+{
+"text": " Українська",
+"startMs": 35750,
+"endMs": 36389,
+"timestampMs": 36070,
+"confidence": null
+},
+{
+"text": " компанія,",
+"startMs": 36390,
+"endMs": 36929,
+"timestampMs": 36660,
+"confidence": null
+},
+{
+"text": " яка",
+"startMs": 36950,
+"endMs": 37149,
+"timestampMs": 37050,
+"confidence": null
+},
+{
+"text": " робить",
+"startMs": 37150,
+"endMs": 37469,
+"timestampMs": 37310,
+"confidence": null
+},
+{
+"text": " систему",
+"startMs": 37470,
+"endMs": 38029,
+"timestampMs": 37750,
+"confidence": null
+},
+{
+"text": " безпеки.",
+"startMs": 38030,
+"endMs": 38569,
+"timestampMs": 38300,
+"confidence": null
+},
+{
+"text": " Дві",
+"startMs": 38850,
+"endMs": 39489,
+"timestampMs": 39170,
+"confidence": null
+},
+{
+"text": " речі,",
+"startMs": 39490,
+"endMs": 39809,
+"timestampMs": 39650,
+"confidence": null
+},
+{
+"text": " які",
+"startMs": 39830,
+"endMs": 39969,
+"timestampMs": 39900,
+"confidence": null
+},
+{
+"text": " варто",
+"startMs": 39970,
+"endMs": 40229,
+"timestampMs": 40100,
+"confidence": null
+},
+{
+"text": " в",
+"startMs": 40230,
+"endMs": 40349,
+"timestampMs": 40290,
+"confidence": null
+},
+{
+"text": " них",
+"startMs": 40350,
+"endMs": 40429,
+"timestampMs": 40390,
+"confidence": null
+},
+{
+"text": " забрати",
+"startMs": 40430,
+"endMs": 40809,
+"timestampMs": 40620,
+"confidence": null
+},
+{
+"text": " до",
+"startMs": 40810,
+"endMs": 41189,
+"timestampMs": 41000,
+"confidence": null
+},
+{
+"text": " себе",
+"startMs": 41190,
+"endMs": 41369,
+"timestampMs": 41280,
+"confidence": null
+},
+{
+"text": " в",
+"startMs": 41370,
+"endMs": 41549,
+"timestampMs": 41460,
+"confidence": null
+},
+{
+"text": " бізнес.",
+"startMs": 41550,
+"endMs": 41909,
+"timestampMs": 41730,
+"confidence": null
+},
+{
+"text": " Перша.",
+"startMs": 42130,
+"endMs": 42769,
+"timestampMs": 42450,
+"confidence": null
+},
+{
+"text": " Вони",
+"startMs": 42770,
+"endMs": 43209,
+"timestampMs": 42990,
+"confidence": null
+},
+{
+"text": " продають",
+"startMs": 43210,
+"endMs": 43609,
+"timestampMs": 43410,
+"confidence": null
+},
+{
+"text": " не",
+"startMs": 43610,
+"endMs": 43849,
+"timestampMs": 43730,
+"confidence": null
+},
+{
+"text": " сигналізацію,",
+"startMs": 43850,
+"endMs": 44769,
+"timestampMs": 44310,
+"confidence": null
+},
+{
+"text": " а",
+"startMs": 44830,
+"endMs": 44969,
+"timestampMs": 44900,
+"confidence": null
+},
+{
+"text": " спокій.",
+"startMs": 44970,
+"endMs": 45489,
+"timestampMs": 45230,
+"confidence": null
+},
+{
+"text": " Пристрій",
+"startMs": 45790,
+"endMs": 46429,
+"timestampMs": 46110,
+"confidence": null
+},
+{
+"text": " це",
+"startMs": 46470,
+"endMs": 46549,
+"timestampMs": 46510,
+"confidence": null
+},
+{
+"text": " залізо,",
+"startMs": 46550,
+"endMs": 47089,
+"timestampMs": 46820,
+"confidence": null
+},
+{
+"text": " а",
+"startMs": 47130,
+"endMs": 47269,
+"timestampMs": 47200,
+"confidence": null
+},
+{
+"text": " спокій",
+"startMs": 47270,
+"endMs": 47809,
+"timestampMs": 47540,
+"confidence": null
+},
+{
+"text": " це",
+"startMs": 47850,
+"endMs": 48009,
+"timestampMs": 47930,
+"confidence": null
+},
+{
+"text": " те,",
+"startMs": 48010,
+"endMs": 48129,
+"timestampMs": 48070,
+"confidence": null
+},
+{
+"text": " за",
+"startMs": 48230,
+"endMs": 48349,
+"timestampMs": 48290,
+"confidence": null
+},
+{
+"text": " що",
+"startMs": 48350,
+"endMs": 48469,
+"timestampMs": 48410,
+"confidence": null
+},
+{
+"text": " насправді",
+"startMs": 48470,
+"endMs": 49149,
+"timestampMs": 48810,
+"confidence": null
+},
+{
+"text": " платять.",
+"startMs": 49150,
+"endMs": 49549,
+"timestampMs": 49350,
+"confidence": null
+},
+{
+"text": " Той",
+"startMs": 49753,
+"endMs": 50072,
+"timestampMs": 49913,
+"confidence": null
+},
+{
+"text": " самий",
+"startMs": 50073,
+"endMs": 50392,
+"timestampMs": 50233,
+"confidence": null
+},
+{
+"text": " механізм,",
+"startMs": 50393,
+"endMs": 50912,
+"timestampMs": 50653,
+"confidence": null
+},
+{
+"text": " що",
+"startMs": 50913,
+"endMs": 51052,
+"timestampMs": 50983,
+"confidence": null
+},
+{
+"text": " і",
+"startMs": 51053,
+"endMs": 51132,
+"timestampMs": 51093,
+"confidence": null
+},
+{
+"text": " у",
+"startMs": 51133,
+"endMs": 51212,
+"timestampMs": 51173,
+"confidence": null
+},
+{
+"text": " нової",
+"startMs": 51213,
+"endMs": 51472,
+"timestampMs": 51343,
+"confidence": null
+},
+{
+"text": " пошти,",
+"startMs": 51473,
+"endMs": 51912,
+"timestampMs": 51693,
+"confidence": null
+},
+{
+"text": " але",
+"startMs": 51913,
+"endMs": 52132,
+"timestampMs": 52023,
+"confidence": null
+},
+{
+"text": " знята",
+"startMs": 52133,
+"endMs": 52472,
+"timestampMs": 52303,
+"confidence": null
+},
+{
+"text": " тривога.",
+"startMs": 52473,
+"endMs": 53132,
+"timestampMs": 52803,
+"confidence": null
+},
+{
+"text": " Друга.",
+"startMs": 53373,
+"endMs": 54212,
+"timestampMs": 53793,
+"confidence": null
+},
+{
+"text": " Суто",
+"startMs": 54213,
+"endMs": 54812,
+"timestampMs": 54513,
+"confidence": null
+},
+{
+"text": " операційна.",
+"startMs": 54813,
+"endMs": 55592,
+"timestampMs": 55203,
+"confidence": null
+},
+{
+"text": " Між",
+"startMs": 55673,
+"endMs": 55812,
+"timestampMs": 55743,
+"confidence": null
+},
+{
+"text": " компанією",
+"startMs": 55813,
+"endMs": 56332,
+"timestampMs": 56073,
+"confidence": null
+},
+{
+"text": " і",
+"startMs": 56333,
+"endMs": 56412,
+"timestampMs": 56373,
+"confidence": null
+},
+{
+"text": " клієнтом",
+"startMs": 56413,
+"endMs": 56832,
+"timestampMs": 56623,
+"confidence": null
+},
+{
+"text": " стоїть",
+"startMs": 56833,
+"endMs": 57292,
+"timestampMs": 57063,
+"confidence": null
+},
+{
+"text": " інсталятор,",
+"startMs": 57293,
+"endMs": 58132,
+"timestampMs": 57713,
+"confidence": null
+},
+{
+"text": " тобто",
+"startMs": 58213,
+"endMs": 58492,
+"timestampMs": 58353,
+"confidence": null
+},
+{
+"text": " монтажник,",
+"startMs": 58493,
+"endMs": 59112,
+"timestampMs": 58803,
+"confidence": null
+},
+{
+"text": " охоронна",
+"startMs": 59213,
+"endMs": 59832,
+"timestampMs": 59523,
+"confidence": null
+},
+{
+"text": " фірма",
+"startMs": 59833,
+"endMs": 60252,
+"timestampMs": 60043,
+"confidence": null
+},
+{
+"text": " або",
+"startMs": 60253,
+"endMs": 60412,
+"timestampMs": 60333,
+"confidence": null
+},
+{
+"text": " ділер.",
+"startMs": 60413,
+"endMs": 60932,
+"timestampMs": 60673,
+"confidence": null
+},
+{
+"text": " Саме",
+"startMs": 61393,
+"endMs": 61832,
+"timestampMs": 61613,
+"confidence": null
+},
+{
+"text": " він",
+"startMs": 61833,
+"endMs": 61992,
+"timestampMs": 61913,
+"confidence": null
+},
+{
+"text": " радить,",
+"startMs": 61993,
+"endMs": 62512,
+"timestampMs": 62253,
+"confidence": null
+},
+{
+"text": " який",
+"startMs": 62513,
+"endMs": 62792,
+"timestampMs": 62653,
+"confidence": null
+},
+{
+"text": " бренд",
+"startMs": 62793,
+"endMs": 63092,
+"timestampMs": 62943,
+"confidence": null
+},
+{
+"text": " поставити.",
+"startMs": 63093,
+"endMs": 63692,
+"timestampMs": 63393,
+"confidence": null
+},
+{
+"text": " Тому",
+"startMs": 63793,
+"endMs": 64232,
+"timestampMs": 64013,
+"confidence": null
+},
+{
+"text": " компанія",
+"startMs": 64233,
+"endMs": 64772,
+"timestampMs": 64503,
+"confidence": null
+},
+{
+"text": " роками",
+"startMs": 64773,
+"endMs": 65112,
+"timestampMs": 64943,
+"confidence": null
+},
+{
+"text": " вкладалась",
+"startMs": 65113,
+"endMs": 65572,
+"timestampMs": 65343,
+"confidence": null
+},
+{
+"text": " не",
+"startMs": 65573,
+"endMs": 65752,
+"timestampMs": 65663,
+"confidence": null
+},
+{
+"text": " в",
+"startMs": 65753,
+"endMs": 65813,
+"timestampMs": 65783,
+"confidence": null
+},
+{
+"text": " рекламу",
+"startMs": 65813,
+"endMs": 66232,
+"timestampMs": 66023,
+"confidence": null
+},
+{
+"text": " для",
+"startMs": 66233,
+"endMs": 66332,
+"timestampMs": 66283,
+"confidence": null
+},
+{
+"text": " кінцевих",
+"startMs": 66333,
+"endMs": 66812,
+"timestampMs": 66573,
+"confidence": null
+},
+{
+"text": " споживачів,",
+"startMs": 66813,
+"endMs": 67512,
+"timestampMs": 67163,
+"confidence": null
+},
+{
+"text": " а",
+"startMs": 67513,
+"endMs": 67832,
+"timestampMs": 67673,
+"confidence": null
+},
+{
+"text": " для",
+"startMs": 67833,
+"endMs": 68052,
+"timestampMs": 67943,
+"confidence": null
+},
+{
+"text": " тих,",
+"startMs": 68053,
+"endMs": 68452,
+"timestampMs": 68253,
+"confidence": null
+},
+{
+"text": " хто",
+"startMs": 68453,
+"endMs": 68732,
+"timestampMs": 68593,
+"confidence": null
+},
+{
+"text": " ухвалює",
+"startMs": 68733,
+"endMs": 69232,
+"timestampMs": 68983,
+"confidence": null
+},
+{
+"text": " технічні",
+"startMs": 69233,
+"endMs": 69772,
+"timestampMs": 69503,
+"confidence": null
+},
+{
+"text": " рішення",
+"startMs": 69773,
+"endMs": 70272,
+"timestampMs": 70023,
+"confidence": null
+},
+{
+"text": " навчання,",
+"startMs": 70393,
+"endMs": 71072,
+"timestampMs": 70733,
+"confidence": null
+},
+{
+"text": " сертифікація,",
+"startMs": 71133,
+"endMs": 71872,
+"timestampMs": 71503,
+"confidence": null
+},
+{
+"text": " зручні",
+"startMs": 71913,
+"endMs": 72252,
+"timestampMs": 72083,
+"confidence": null
+},
+{
+"text": " інструменти,",
+"startMs": 72253,
+"endMs": 72972,
+"timestampMs": 72613,
+"confidence": null
+},
+{
+"text": " підтримка.",
+"startMs": 73013,
+"endMs": 73632,
+"timestampMs": 73323,
+"confidence": null
+},
+{
+"text": " Тобто",
+"startMs": 73733,
+"endMs": 74352,
+"timestampMs": 74043,
+"confidence": null
+},
+{
+"text": " виграв",
+"startMs": 74353,
+"endMs": 74752,
+"timestampMs": 74553,
+"confidence": null
+},
+{
+"text": " бренд,",
+"startMs": 74753,
+"endMs": 75252,
+"timestampMs": 75003,
+"confidence": null
+},
+{
+"text": " який",
+"startMs": 75293,
+"endMs": 75472,
+"timestampMs": 75383,
+"confidence": null
+},
+{
+"text": " зробив",
+"startMs": 75473,
+"endMs": 75912,
+"timestampMs": 75693,
+"confidence": null
+},
+{
+"text": " зручно",
+"startMs": 75913,
+"endMs": 76372,
+"timestampMs": 76143,
+"confidence": null
+},
+{
+"text": " не",
+"startMs": 76373,
+"endMs": 76592,
+"timestampMs": 76483,
+"confidence": null
+},
+{
+"text": " покупцю,",
+"startMs": 76593,
+"endMs": 77412,
+"timestampMs": 77003,
+"confidence": null
+},
+{
+"text": " а",
+"startMs": 77473,
+"endMs": 77972,
+"timestampMs": 77723,
+"confidence": null
+},
+{
+"text": " порадникові",
+"startMs": 77973,
+"endMs": 79032,
+"timestampMs": 78503,
+"confidence": null
+},
+{
+"text": " І",
+"startMs": 80613,
+"endMs": 81292,
+"timestampMs": 80953,
+"confidence": null
+},
+{
+"text": " це",
+"startMs": 81293,
+"endMs": 81572,
+"timestampMs": 81433,
+"confidence": null
+},
+{
+"text": " довга",
+"startMs": 81573,
+"endMs": 81992,
+"timestampMs": 81783,
+"confidence": null
+},
+{
+"text": " гра.",
+"startMs": 81993,
+"endMs": 82192,
+"timestampMs": 82093,
+"confidence": null
+},
+{
+"text": " Партнерська",
+"startMs": 82393,
+"endMs": 83012,
+"timestampMs": 82703,
+"confidence": null
+},
+{
+"text": " мережа",
+"startMs": 83013,
+"endMs": 83452,
+"timestampMs": 83233,
+"confidence": null
+},
+{
+"text": " не",
+"startMs": 83453,
+"endMs": 83592,
+"timestampMs": 83523,
+"confidence": null
+},
+{
+"text": " будується",
+"startMs": 83593,
+"endMs": 84252,
+"timestampMs": 83923,
+"confidence": null
+},
+{
+"text": " за",
+"startMs": 84253,
+"endMs": 84392,
+"timestampMs": 84323,
+"confidence": null
+},
+{
+"text": " квартал.",
+"startMs": 84393,
+"endMs": 84872,
+"timestampMs": 84633,
+"confidence": null
+},
+{
+"text": " Це",
+"startMs": 84873,
+"endMs": 85032,
+"timestampMs": 84953,
+"confidence": null
+},
+{
+"text": " роки",
+"startMs": 85033,
+"endMs": 85472,
+"timestampMs": 85253,
+"confidence": null
+},
+{
+"text": " навчання",
+"startMs": 85473,
+"endMs": 86052,
+"timestampMs": 85763,
+"confidence": null
+},
+{
+"text": " людей,",
+"startMs": 86053,
+"endMs": 86332,
+"timestampMs": 86193,
+"confidence": null
+},
+{
+"text": " які",
+"startMs": 86573,
+"endMs": 86812,
+"timestampMs": 86693,
+"confidence": null
+},
+{
+"text": " потім",
+"startMs": 86813,
+"endMs": 87292,
+"timestampMs": 87053,
+"confidence": null
+},
+{
+"text": " рекомендують",
+"startMs": 87293,
+"endMs": 88252,
+"timestampMs": 87773,
+"confidence": null
+},
+{
+"text": " тебе",
+"startMs": 88253,
+"endMs": 88472,
+"timestampMs": 88363,
+"confidence": null
+},
+{
+"text": " замість",
+"startMs": 88473,
+"endMs": 89172,
+"timestampMs": 88823,
+"confidence": null
+},
+{
+"text": " конкурента.",
+"startMs": 89173,
+"endMs": 89832,
+"timestampMs": 89503,
+"confidence": null
+},
+{
+"text": " Головне",
+"startMs": 91033,
+"endMs": 91712,
+"timestampMs": 91373,
+"confidence": null
+},
+{
+"text": " питання",
+"startMs": 91713,
+"endMs": 92052,
+"timestampMs": 91883,
+"confidence": null
+},
+{
+"text": " для",
+"startMs": 92053,
+"endMs": 92212,
+"timestampMs": 92133,
+"confidence": null
+},
+{
+"text": " тебе",
+"startMs": 92213,
+"endMs": 92452,
+"timestampMs": 92333,
+"confidence": null
+},
+{
+"text": " хто",
+"startMs": 92613,
+"endMs": 92952,
+"timestampMs": 92783,
+"confidence": null
+},
+{
+"text": " радить",
+"startMs": 92953,
+"endMs": 93492,
+"timestampMs": 93223,
+"confidence": null
+},
+{
+"text": " твоїй",
+"startMs": 93493,
+"endMs": 93972,
+"timestampMs": 93733,
+"confidence": null
+},
+{
+"text": " клієнтці?",
+"startMs": 93973,
+"endMs": 94592,
+"timestampMs": 94283,
+"confidence": null
+},
+{
+"text": " До",
+"startMs": 94733,
+"endMs": 95052,
+"timestampMs": 94893,
+"confidence": null
+},
+{
+"text": " кого",
+"startMs": 95053,
+"endMs": 95332,
+"timestampMs": 95193,
+"confidence": null
+},
+{
+"text": " вона",
+"startMs": 95333,
+"endMs": 95552,
+"timestampMs": 95443,
+"confidence": null
+},
+{
+"text": " йде?",
+"startMs": 95553,
+"endMs": 95792,
+"timestampMs": 95673,
+"confidence": null
+},
+{
+"text": " Майстриня",
+"startMs": 96573,
+"endMs": 97192,
+"timestampMs": 96883,
+"confidence": null
+},
+{
+"text": " манікюру",
+"startMs": 97193,
+"endMs": 97692,
+"timestampMs": 97443,
+"confidence": null
+},
+{
+"text": " радить",
+"startMs": 97693,
+"endMs": 97952,
+"timestampMs": 97823,
+"confidence": null
+},
+{
+"text": " косметологиню.",
+"startMs": 97953,
+"endMs": 98792,
+"timestampMs": 98373,
+"confidence": null
+},
+{
+"text": " Фотографка",
+"startMs": 99293,
+"endMs": 99912,
+"timestampMs": 99603,
+"confidence": null
+},
+{
+"text": " візажистку",
+"startMs": 99933,
+"endMs": 100612,
+"timestampMs": 100273,
+"confidence": null
+},
+{
+"text": " і",
+"startMs": 100613,
+"endMs": 100673,
+"timestampMs": 100643,
+"confidence": null
+},
+{
+"text": " декораторку.",
+"startMs": 100673,
+"endMs": 101372,
+"timestampMs": 101023,
+"confidence": null
+},
+{
+"text": " Педіатр",
+"startMs": 101553,
+"endMs": 102172,
+"timestampMs": 101863,
+"confidence": null
+},
+{
+"text": " логопеда",
+"startMs": 102193,
+"endMs": 102812,
+"timestampMs": 102503,
+"confidence": null
+},
+{
+"text": " або",
+"startMs": 102813,
+"endMs": 102992,
+"timestampMs": 102903,
+"confidence": null
+},
+{
+"text": " масажиста.",
+"startMs": 102993,
+"endMs": 103732,
+"timestampMs": 103363,
+"confidence": null
+},
+{
+"text": " Бухгалтерка",
+"startMs": 104053,
+"endMs": 104672,
+"timestampMs": 104363,
+"confidence": null
+},
+{
+"text": " юристку.",
+"startMs": 104693,
+"endMs": 105332,
+"timestampMs": 105013,
+"confidence": null
+},
+{
+"text": " Випиши",
+"startMs": 105613,
+"endMs": 106232,
+"timestampMs": 105923,
+"confidence": null
+},
+{
+"text": " 5",
+"startMs": 106233,
+"endMs": 106372,
+"timestampMs": 106303,
+"confidence": null
+},
+{
+"text": " таких",
+"startMs": 106373,
+"endMs": 106732,
+"timestampMs": 106553,
+"confidence": null
+},
+{
+"text": " людей",
+"startMs": 106733,
+"endMs": 107272,
+"timestampMs": 107003,
+"confidence": null
+},
+{
+"text": " у",
+"startMs": 107273,
+"endMs": 107552,
+"timestampMs": 107413,
+"confidence": null
+},
+{
+"text": " своєму",
+"startMs": 107553,
+"endMs": 107952,
+"timestampMs": 107753,
+"confidence": null
+},
+{
+"text": " місті.",
+"startMs": 107953,
+"endMs": 108452,
+"timestampMs": 108203,
+"confidence": null
+},
+{
+"text": " Не",
+"startMs": 108513,
+"endMs": 108892,
+"timestampMs": 108703,
+"confidence": null
+},
+{
+"text": " конкурентів,",
+"startMs": 108893,
+"endMs": 109792,
+"timestampMs": 109343,
+"confidence": null
+},
+{
+"text": " а",
+"startMs": 109793,
+"endMs": 109932,
+"timestampMs": 109863,
+"confidence": null
+},
+{
+"text": " суміжників.",
+"startMs": 109933,
+"endMs": 110832,
+"timestampMs": 110383,
+"confidence": null
+},
+{
+"text": " А",
+"startMs": 110953,
+"endMs": 111572,
+"timestampMs": 111263,
+"confidence": null
+},
+{
+"text": " тепер",
+"startMs": 111573,
+"endMs": 112032,
+"timestampMs": 111803,
+"confidence": null
+},
+{
+"text": " одне",
+"startMs": 112033,
+"endMs": 112212,
+"timestampMs": 112123,
+"confidence": null
+},
+{
+"text": " чесне",
+"startMs": 112213,
+"endMs": 112772,
+"timestampMs": 112493,
+"confidence": null
+},
+{
+"text": " і",
+"startMs": 112773,
+"endMs": 112872,
+"timestampMs": 112823,
+"confidence": null
+},
+{
+"text": " не",
+"startMs": 112873,
+"endMs": 112992,
+"timestampMs": 112933,
+"confidence": null
+},
+{
+"text": " дуже",
+"startMs": 112993,
+"endMs": 113132,
+"timestampMs": 113063,
+"confidence": null
+},
+{
+"text": " приємне",
+"startMs": 113133,
+"endMs": 113592,
+"timestampMs": 113363,
+"confidence": null
+},
+{
+"text": " питання.",
+"startMs": 113593,
+"endMs": 114052,
+"timestampMs": 113823,
+"confidence": null
+},
+{
+"text": " А",
+"startMs": 114153,
+"endMs": 114452,
+"timestampMs": 114303,
+"confidence": null
+},
+{
+"text": " що",
+"startMs": 114453,
+"endMs": 114632,
+"timestampMs": 114543,
+"confidence": null
+},
+{
+"text": " ти",
+"startMs": 114633,
+"endMs": 114772,
+"timestampMs": 114703,
+"confidence": null
+},
+{
+"text": " зробила,",
+"startMs": 114773,
+"endMs": 115312,
+"timestampMs": 115043,
+"confidence": null
+},
+{
+"text": " щоб",
+"startMs": 115313,
+"endMs": 115492,
+"timestampMs": 115403,
+"confidence": null
+},
+{
+"text": " їм",
+"startMs": 115493,
+"endMs": 115752,
+"timestampMs": 115623,
+"confidence": null
+},
+{
+"text": " було",
+"startMs": 115753,
+"endMs": 115912,
+"timestampMs": 115833,
+"confidence": null
+},
+{
+"text": " зручно",
+"startMs": 115913,
+"endMs": 116392,
+"timestampMs": 116153,
+"confidence": null
+},
+{
+"text": " радити",
+"startMs": 116393,
+"endMs": 116792,
+"timestampMs": 116593,
+"confidence": null
+},
+{
+"text": " тебе?",
+"startMs": 116793,
+"endMs": 117032,
+"timestampMs": 116913,
+"confidence": null
+},
+{
+"text": " Готовий",
+"startMs": 117373,
+"endMs": 117992,
+"timestampMs": 117683,
+"confidence": null
+},
+{
+"text": " текст,",
+"startMs": 117993,
+"endMs": 118412,
+"timestampMs": 118203,
+"confidence": null
+},
+{
+"text": " який",
+"startMs": 118433,
+"endMs": 118572,
+"timestampMs": 118503,
+"confidence": null
+},
+{
+"text": " можна",
+"startMs": 118573,
+"endMs": 118912,
+"timestampMs": 118743,
+"confidence": null
+},
+{
+"text": " переслати?",
+"startMs": 118913,
+"endMs": 119572,
+"timestampMs": 119243,
+"confidence": null
+},
+{
+"text": " Твій",
+"startMs": 119573,
+"endMs": 120092,
+"timestampMs": 119833,
+"confidence": null
+},
+{
+"text": " прайс",
+"startMs": 120093,
+"endMs": 120452,
+"timestampMs": 120273,
+"confidence": null
+},
+{
+"text": " під",
+"startMs": 120453,
+"endMs": 120612,
+"timestampMs": 120533,
+"confidence": null
+},
+{
+"text": " рукою?",
+"startMs": 120613,
+"endMs": 121172,
+"timestampMs": 120893,
+"confidence": null
+},
+{
+"text": " Гарантія,",
+"startMs": 121173,
+"endMs": 121952,
+"timestampMs": 121563,
+"confidence": null
+},
+{
+"text": " що",
+"startMs": 121953,
+"endMs": 122112,
+"timestampMs": 122033,
+"confidence": null
+},
+{
+"text": " їхній",
+"startMs": 122113,
+"endMs": 122552,
+"timestampMs": 122333,
+"confidence": null
+},
+{
+"text": " людині",
+"startMs": 122553,
+"endMs": 123112,
+"timestampMs": 122833,
+"confidence": null
+},
+{
+"text": " не",
+"startMs": 123113,
+"endMs": 123212,
+"timestampMs": 123163,
+"confidence": null
+},
+{
+"text": " буде",
+"startMs": 123213,
+"endMs": 123412,
+"timestampMs": 123313,
+"confidence": null
+},
+{
+"text": " соромно",
+"startMs": 123413,
+"endMs": 124052,
+"timestampMs": 123733,
+"confidence": null
+},
+{
+"text": " за",
+"startMs": 124053,
+"endMs": 124172,
+"timestampMs": 124113,
+"confidence": null
+},
+{
+"text": " твої",
+"startMs": 124173,
+"endMs": 124472,
+"timestampMs": 124323,
+"confidence": null
+},
+{
+"text": " сервіси?",
+"startMs": 124473,
+"endMs": 125112,
+"timestampMs": 124793,
+"confidence": null
+},
+{
+"text": " Найдешевший",
+"startMs": 125513,
+"endMs": 126312,
+"timestampMs": 125913,
+"confidence": null
+},
+{
+"text": " канал",
+"startMs": 126313,
+"endMs": 126532,
+"timestampMs": 126423,
+"confidence": null
+},
+{
+"text": " продажів",
+"startMs": 126533,
+"endMs": 127272,
+"timestampMs": 126903,
+"confidence": null
+},
+{
+"text": " це",
+"startMs": 127293,
+"endMs": 127452,
+"timestampMs": 127373,
+"confidence": null
+},
+{
+"text": " не",
+"startMs": 127453,
+"endMs": 127552,
+"timestampMs": 127503,
+"confidence": null
+},
+{
+"text": " реклама.",
+"startMs": 127553,
+"endMs": 127952,
+"timestampMs": 127753,
+"confidence": null
+},
+{
+"text": " Це",
+"startMs": 128093,
+"endMs": 128552,
+"timestampMs": 128323,
+"confidence": null
+},
+{
+"text": " 10",
+"startMs": 128553,
+"endMs": 128972,
+"timestampMs": 128763,
+"confidence": null
+},
+{
+"text": " людей,",
+"startMs": 128973,
+"endMs": 129412,
+"timestampMs": 129193,
+"confidence": null
+},
+{
+"text": " яким",
+"startMs": 129633,
+"endMs": 130232,
+"timestampMs": 129933,
+"confidence": null
+},
+{
+"text": " зручно",
+"startMs": 130233,
+"endMs": 130752,
+"timestampMs": 130493,
+"confidence": null
+},
+{
+"text": " вимовити",
+"startMs": 130753,
+"endMs": 131472,
+"timestampMs": 131113,
+"confidence": null
+},
+{
+"text": " саме",
+"startMs": 131473,
+"endMs": 132032,
+"timestampMs": 131753,
+"confidence": null
+},
+{
+"text": " твоє",
+"startMs": 132033,
+"endMs": 132512,
+"timestampMs": 132273,
+"confidence": null
+},
+{
+"text": " ім",
+"startMs": 132513,
+"endMs": 132932,
+"timestampMs": 132723,
+"confidence": null
+},
+{
+"text": " 'я.",
+"startMs": 132933,
+"endMs": 133172,
+"timestampMs": 133053,
+"confidence": null
+},
+{
+"text": " А",
+"startMs": 133293,
+"endMs": 134092,
+"timestampMs": 133693,
+"confidence": null
+},
+{
+"text": " наступного",
+"startMs": 134093,
+"endMs": 134592,
+"timestampMs": 134343,
+"confidence": null
+},
+{
+"text": " разу",
+"startMs": 134593,
+"endMs": 134892,
+"timestampMs": 134743,
+"confidence": null
+},
+{
+"text": " я",
+"startMs": 134893,
+"endMs": 134953,
+"timestampMs": 134913,
+"confidence": null
+},
+{
+"text": " розповім",
+"startMs": 134933,
+"endMs": 135272,
+"timestampMs": 135103,
+"confidence": null
+},
+{
+"text": " про",
+"startMs": 135273,
+"endMs": 135392,
+"timestampMs": 135333,
+"confidence": null
+},
+{
+"text": " компанію,",
+"startMs": 135393,
+"endMs": 135892,
+"timestampMs": 135643,
+"confidence": null
+},
+{
+"text": " яка",
+"startMs": 135953,
+"endMs": 136132,
+"timestampMs": 136043,
+"confidence": null
+},
+{
+"text": " змусила",
+"startMs": 136133,
+"endMs": 136552,
+"timestampMs": 136343,
+"confidence": null
+},
+{
+"text": " мільйони",
+"startMs": 136553,
+"endMs": 136992,
+"timestampMs": 136773,
+"confidence": null
+},
+{
+"text": " людей",
+"startMs": 136993,
+"endMs": 137192,
+"timestampMs": 137093,
+"confidence": null
+},
+{
+"text": " боятися",
+"startMs": 137193,
+"endMs": 138052,
+"timestampMs": 137623,
+"confidence": null
+},
+{
+"text": " зеленої",
+"startMs": 138053,
+"endMs": 138512,
+"timestampMs": 138283,
+"confidence": null
+},
+{
+"text": " пташки.",
+"startMs": 138513,
+"endMs": 138872,
+"timestampMs": 138693,
+"confidence": null
+}
+]

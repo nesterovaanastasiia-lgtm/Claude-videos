@@ -27,7 +27,7 @@ import {
 export const CountriesStat: React.FC = () => {
   const frame = useCurrentFrame();
   const value = Math.round(
-    interpolate(frame, [6, 40], [0, 100], {
+    interpolate(frame, [6, 79], [0, 100], {
       extrapolateLeft: "clamp",
       extrapolateRight: "clamp",
       easing: EASE_OUT,

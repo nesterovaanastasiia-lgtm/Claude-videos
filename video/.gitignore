@@ -8,3 +8,7 @@ out
 
 # Rendered output
 out/
+
+# Large source footage (kept out of git)
+public/trades-source.mov
+public/source.mp4

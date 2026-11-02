@@ -1,7 +1,6 @@
 import { Video } from "@remotion/media";
 import React from "react";
 import { AbsoluteFill, Sequence, staticFile, useCurrentFrame } from "remotion";
-import { ACCENT } from "../theme";
 import {
   AdviceCard,
   BigStat,
@@ -26,7 +25,7 @@ const SRC = staticFile("trades-source.mov");
  */
 const GraphicSlot: React.FC<{ children: React.ReactNode }> = ({ children }) => (
   <AbsoluteFill
-    style={{ justifyContent: "flex-end", alignItems: "center", paddingBottom: 492 }}
+    style={{ justifyContent: "flex-end", alignItems: "center", paddingBottom: 480 }}
   >
     {children}
   </AbsoluteFill>
@@ -49,7 +48,7 @@ const ProgressBar: React.FC = () => {
         <div
           style={{
             height: "100%",
-            background: ACCENT,
+            background: "#eb6834",
             width: `${(frame / TRADES_DURATION) * 100}%`,
           }}
         />
@@ -144,7 +143,7 @@ export const TradesReel: React.FC = () => {
       <Sequence name="Зумери в трейдах" from={2680} durationInFrames={295}>
         <GraphicSlot>
           <StatPair
-            kicker="Покоління з інструментом"
+            kicker="Покоління з професією в руках"
             a={{ value: "42%", label: "зумерів уже йдуть у робітничі професії" }}
             b={{ value: "80%", label: "із них називають причиною захист від ШІ" }}
             source="NY Post · Resume Builder, листопад 2025"

@@ -1,29 +1,39 @@
 import React from "react";
 import { Img, staticFile } from "remotion";
-import { ACCENT, fontFamily, SERIES_1, TEXT_SECONDARY } from "../theme";
-import { Kicker, Panel, Rise, SourceLine } from "./ui";
+import { fontFamily } from "../theme";
+import {
+  DATA_BLUE,
+  DATA_RED,
+  HAIRLINE,
+  INK,
+  INK_SOFT,
+  Kicker,
+  Panel,
+  Rise,
+  SourceLine,
+} from "./ui";
 
 /** Short label strip, used over the speaker's head. */
 export const TopPill: React.FC<{ text: string }> = ({ text }) => (
   <div
     style={{
       fontFamily,
-      fontSize: 30,
+      fontSize: 21,
       fontWeight: 800,
-      letterSpacing: 2.5,
+      letterSpacing: 2.2,
       textTransform: "uppercase",
-      color: "#0c0c10",
-      background: ACCENT,
+      color: INK,
+      background: "rgba(255,255,255,0.90)",
+      backdropFilter: "blur(16px)",
       borderRadius: 999,
-      padding: "14px 34px",
-      boxShadow: "0 16px 40px rgba(0,0,0,0.45)",
+      padding: "10px 24px",
+      boxShadow: "0 12px 30px rgba(0,0,0,0.18)",
     }}
   >
     {text}
   </div>
 );
 
-/** The prestige ladder of the 2000s, ticked off as she names each one. */
 const PRESTIGE = [
   { text: "Фінансист", delay: 0 },
   { text: "Економіст", delay: 24 },
@@ -33,29 +43,27 @@ const PRESTIGE = [
 
 export const PrestigeList: React.FC = () => (
   <Panel>
-    <Kicker>Нульові: куди йшли «престижні»</Kicker>
+    <Kicker>Двохтисячні · напрямки, які вважалися престижними</Kicker>
     {PRESTIGE.map((item) => (
       <Rise key={item.text} delay={item.delay} collapse>
         <div
           style={{
             display: "flex",
             alignItems: "center",
-            gap: 20,
-            marginBottom: 14,
+            gap: 14,
+            marginBottom: 9,
           }}
         >
           <div
             style={{
-              width: 14,
-              height: 14,
+              width: 8,
+              height: 8,
               borderRadius: 999,
-              background: ACCENT,
+              background: DATA_BLUE,
               flexShrink: 0,
             }}
           />
-          <div
-            style={{ fontFamily, fontSize: 42, fontWeight: 800, color: "white" }}
-          >
+          <div style={{ fontFamily, fontSize: 29, fontWeight: 800, color: INK }}>
             {item.text}
           </div>
         </div>
@@ -71,31 +79,27 @@ export const QuoteCard: React.FC<{
   outlet: string;
   domain: string;
 }> = ({ quote, headline, outlet, domain }) => (
-  <Panel accent>
+  <Panel>
     <div
       style={{
         fontFamily,
-        fontSize: 40,
+        fontSize: 29,
         fontWeight: 800,
         lineHeight: 1.22,
-        color: "white",
+        color: INK,
       }}
     >
       «{quote}»
     </div>
     <div
-      style={{
-        marginTop: 26,
-        paddingTop: 22,
-        borderTop: "2px solid rgba(255,255,255,0.16)",
-      }}
+      style={{ marginTop: 16, paddingTop: 14, borderTop: `1px solid ${HAIRLINE}` }}
     >
       <div
         style={{
           fontFamily,
-          fontSize: 26,
+          fontSize: 18,
           fontWeight: 700,
-          color: TEXT_SECONDARY,
+          color: INK_SOFT,
           lineHeight: 1.25,
         }}
       >
@@ -104,10 +108,10 @@ export const QuoteCard: React.FC<{
       <div
         style={{
           fontFamily,
-          fontSize: 25,
+          fontSize: 17,
           fontWeight: 800,
-          color: ACCENT,
-          marginTop: 10,
+          color: DATA_BLUE,
+          marginTop: 7,
         }}
       >
         {outlet} · {domain}
@@ -125,23 +129,26 @@ export const ShotCard: React.FC<{
   <Panel>
     <div
       style={{
-        borderRadius: 18,
+        borderRadius: 12,
         overflow: "hidden",
+        border: `1px solid ${HAIRLINE}`,
         background: "white",
-        padding: 14,
       }}
     >
-      <Img src={staticFile(`shots/${file}`)} style={{ width: "100%", display: "block" }} />
+      <Img
+        src={staticFile(`shots/${file}`)}
+        style={{ width: "100%", display: "block" }}
+      />
     </div>
     {caption ? (
       <Rise delay={18} collapse>
         <div
           style={{
             fontFamily,
-            fontSize: 32,
+            fontSize: 23,
             fontWeight: 800,
-            color: "white",
-            marginTop: 22,
+            color: INK,
+            marginTop: 14,
             lineHeight: 1.2,
           }}
         >
@@ -162,16 +169,16 @@ export const StatPair: React.FC<{
 }> = ({ kicker, a, b, source }) => (
   <Panel>
     <Kicker>{kicker}</Kicker>
-    <div style={{ display: "flex", gap: 40 }}>
+    <div style={{ display: "flex", gap: 28 }}>
       {[a, b].map((s, i) => (
         <Rise key={s.value} delay={i * 16} style={{ flex: 1 }}>
           <div
             style={{
               fontFamily,
-              fontSize: 92,
+              fontSize: 60,
               fontWeight: 900,
               lineHeight: 0.95,
-              color: ACCENT,
+              color: DATA_BLUE,
             }}
           >
             {s.value}
@@ -179,10 +186,10 @@ export const StatPair: React.FC<{
           <div
             style={{
               fontFamily,
-              fontSize: 28,
+              fontSize: 19,
               fontWeight: 700,
-              color: "white",
-              marginTop: 12,
+              color: INK,
+              marginTop: 8,
               lineHeight: 1.18,
             }}
           >
@@ -202,15 +209,15 @@ export const BigStat: React.FC<{
   label: string;
   source: string;
 }> = ({ kicker, value, label, source }) => (
-  <Panel accent>
+  <Panel>
     <Kicker>{kicker}</Kicker>
     <div
       style={{
         fontFamily,
-        fontSize: 120,
+        fontSize: 76,
         fontWeight: 900,
-        lineHeight: 0.92,
-        color: "white",
+        lineHeight: 0.95,
+        color: INK,
       }}
     >
       {value}
@@ -218,10 +225,10 @@ export const BigStat: React.FC<{
     <div
       style={{
         fontFamily,
-        fontSize: 32,
+        fontSize: 21,
         fontWeight: 700,
-        color: ACCENT,
-        marginTop: 14,
+        color: INK_SOFT,
+        marginTop: 10,
         lineHeight: 1.2,
       }}
     >
@@ -236,27 +243,21 @@ export const MismatchCard: React.FC = () => (
   <Panel>
     <Kicker>Липень 2026</Kicker>
     <Rise delay={0} collapse>
-      <div style={{ marginBottom: 24 }}>
-        <div
-          style={{ fontFamily, fontSize: 26, fontWeight: 700, color: TEXT_SECONDARY }}
-        >
+      <div style={{ marginBottom: 16 }}>
+        <div style={{ fontFamily, fontSize: 18, fontWeight: 700, color: INK_SOFT }}>
           Найбільше відгуків на одне оголошення
         </div>
-        <div
-          style={{ fontFamily, fontSize: 40, fontWeight: 900, color: "#e66767" }}
-        >
+        <div style={{ fontFamily, fontSize: 28, fontWeight: 900, color: DATA_RED }}>
           реклама, дизайн, PR
         </div>
       </div>
     </Rise>
     <Rise delay={22} collapse>
       <div>
-        <div
-          style={{ fontFamily, fontSize: 26, fontWeight: 700, color: TEXT_SECONDARY }}
-        >
+        <div style={{ fontFamily, fontSize: 18, fontWeight: 700, color: INK_SOFT }}>
           Найбільше вакансій від роботодавців
         </div>
-        <div style={{ fontFamily, fontSize: 40, fontWeight: 900, color: SERIES_1 }}>
+        <div style={{ fontFamily, fontSize: 28, fontWeight: 900, color: DATA_BLUE }}>
           виробництво, робітничі
         </div>
       </div>
@@ -269,7 +270,7 @@ export const MismatchCard: React.FC = () => (
 export const BlsCard: React.FC = () => (
   <Panel>
     <Kicker>Прогноз BLS, 2024–2034</Kicker>
-    <div style={{ display: "flex", gap: 48 }}>
+    <div style={{ display: "flex", gap: 34 }}>
       {[
         { v: "+9%", l: "електрики" },
         { v: "+8%", l: "HVAC" },
@@ -278,22 +279,16 @@ export const BlsCard: React.FC = () => (
           <div
             style={{
               fontFamily,
-              fontSize: 96,
+              fontSize: 62,
               fontWeight: 900,
               lineHeight: 0.95,
-              color: SERIES_1,
+              color: DATA_BLUE,
             }}
           >
             {s.v}
           </div>
           <div
-            style={{
-              fontFamily,
-              fontSize: 30,
-              fontWeight: 800,
-              color: "white",
-              marginTop: 10,
-            }}
+            style={{ fontFamily, fontSize: 21, fontWeight: 800, color: INK, marginTop: 6 }}
           >
             {s.l}
           </div>
@@ -304,32 +299,26 @@ export const BlsCard: React.FC = () => (
       <div
         style={{
           fontFamily,
-          fontSize: 28,
+          fontSize: 20,
           fontWeight: 700,
-          color: "white",
-          marginTop: 22,
+          color: INK,
+          marginTop: 14,
           lineHeight: 1.22,
         }}
       >
-        Зростання швидше за середнє по ринку. Тягнуть дата-центри та енергомережі.
+        Швидше за середнє по ринку. Тягнуть дата-центри та енергомережі.
       </div>
     </Rise>
     <SourceLine>Bureau of Labor Statistics, Occupational Outlook Handbook</SourceLine>
   </Panel>
 );
 
-/** The author's own caveat — kept visually distinct from the data cards. */
+/** The author's own caveat — a tinted card so it reads as a remark, not data. */
 export const CaveatCard: React.FC = () => (
-  <Panel style={{ background: "rgba(40,28,8,0.92)", borderColor: ACCENT }}>
+  <Panel style={{ background: "rgba(255,249,235,0.93)" }}>
     <Kicker>Чесно кажучи</Kicker>
     <div
-      style={{
-        fontFamily,
-        fontSize: 34,
-        fontWeight: 800,
-        color: "white",
-        lineHeight: 1.22,
-      }}
+      style={{ fontFamily, fontSize: 25, fontWeight: 800, color: INK, lineHeight: 1.22 }}
     >
       Дефіцит робітників в Україні — це не лише ШІ. Передусім мобілізація й міграція.
     </div>
@@ -337,10 +326,10 @@ export const CaveatCard: React.FC = () => (
       <div
         style={{
           fontFamily,
-          fontSize: 28,
+          fontSize: 20,
           fontWeight: 700,
-          color: ACCENT,
-          marginTop: 18,
+          color: INK_SOFT,
+          marginTop: 12,
           lineHeight: 1.22,
         }}
       >
@@ -352,15 +341,15 @@ export const CaveatCard: React.FC = () => (
 
 /** Closing advice. */
 export const AdviceCard: React.FC = () => (
-  <Panel accent>
+  <Panel>
     <div
       style={{
         fontFamily,
-        fontSize: 32,
+        fontSize: 24,
         fontWeight: 800,
-        color: TEXT_SECONDARY,
+        color: INK_SOFT,
         textDecoration: "line-through",
-        textDecorationThickness: 4,
+        textDecorationThickness: 3,
       }}
     >
       класичний IT-фронтенд
@@ -369,10 +358,10 @@ export const AdviceCard: React.FC = () => (
       <div
         style={{
           fontFamily,
-          fontSize: 54,
+          fontSize: 40,
           fontWeight: 900,
-          color: "white",
-          marginTop: 16,
+          color: INK,
+          marginTop: 10,
           lineHeight: 1.1,
         }}
       >
@@ -400,10 +389,10 @@ export const SourcesCard: React.FC = () => (
         <div
           style={{
             fontFamily,
-            fontSize: 26,
+            fontSize: 19,
             fontWeight: 700,
-            color: "white",
-            marginBottom: 11,
+            color: INK,
+            marginBottom: 7,
             lineHeight: 1.2,
           }}
         >

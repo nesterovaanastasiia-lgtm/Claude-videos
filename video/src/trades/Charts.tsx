@@ -1,13 +1,19 @@
 import React from "react";
 import { interpolate, useCurrentFrame } from "remotion";
+import { fontFamily } from "../theme";
 import {
-  ACCENT,
-  fontFamily,
-  SERIES_1,
-  SERIES_2,
-  TEXT_SECONDARY,
-} from "../theme";
-import { EASE, Kicker, Panel, Rise, SourceLine } from "./ui";
+  DATA_BLUE,
+  DATA_ORANGE,
+  DATA_RED,
+  EASE,
+  HAIRLINE,
+  INK,
+  INK_SOFT,
+  Kicker,
+  Panel,
+  Rise,
+  SourceLine,
+} from "./ui";
 
 /* ------------------------------------------------------------------ *
  * OLX median salaries — magnitude across five roles, one hue.
@@ -36,29 +42,29 @@ export const SalaryBars: React.FC = () => {
           style={{
             display: "flex",
             alignItems: "center",
-            gap: 18,
-            marginBottom: 12,
+            gap: 14,
+            marginBottom: 9,
           }}
         >
           <div
             style={{
               fontFamily,
-              fontSize: 25,
+              fontSize: 19,
               fontWeight: 700,
-              width: 300,
-              lineHeight: 1.12,
-              color: "white",
+              width: 230,
+              lineHeight: 1.1,
+              color: INK,
             }}
           >
             {row.label}
           </div>
-          <div style={{ flex: 1, height: 36, position: "relative" }}>
+          <div style={{ flex: 1, height: 26, position: "relative" }}>
             <div
               style={{
                 position: "absolute",
                 inset: 0,
-                borderRadius: 8,
-                background: "rgba(255,255,255,0.06)",
+                borderRadius: 5,
+                background: "rgba(20,20,26,0.07)",
               }}
             />
             <div
@@ -67,8 +73,8 @@ export const SalaryBars: React.FC = () => {
                 top: 0,
                 left: 0,
                 height: "100%",
-                borderRadius: "0 8px 8px 0",
-                background: SERIES_1,
+                borderRadius: "0 5px 5px 0",
+                background: DATA_BLUE,
                 width: `${interpolate(
                   frame,
                   [row.delay, row.delay + 20],
@@ -80,12 +86,12 @@ export const SalaryBars: React.FC = () => {
             <div
               style={{
                 position: "absolute",
-                right: 12,
-                top: 2,
+                right: 10,
+                top: 1,
                 fontFamily,
-                fontSize: 25,
+                fontSize: 19,
                 fontWeight: 900,
-                color: "white",
+                color: INK,
               }}
             >
               {row.value} тис.
@@ -97,27 +103,20 @@ export const SalaryBars: React.FC = () => {
       <Rise delay={74} collapse>
         <div
           style={{
-            marginTop: 10,
-            paddingTop: 20,
-            borderTop: "2px solid rgba(255,255,255,0.14)",
+            marginTop: 6,
+            paddingTop: 12,
+            borderTop: `1px solid ${HAIRLINE}`,
             display: "flex",
             alignItems: "baseline",
-            gap: 16,
+            gap: 12,
           }}
         >
           <div
-            style={{
-              fontFamily,
-              fontSize: 27,
-              fontWeight: 700,
-              color: TEXT_SECONDARY,
-            }}
+            style={{ fontFamily, fontSize: 19, fontWeight: 700, color: INK_SOFT }}
           >
             Медіана по платформі
           </div>
-          <div
-            style={{ fontFamily, fontSize: 36, fontWeight: 900, color: ACCENT }}
-          >
+          <div style={{ fontFamily, fontSize: 25, fontWeight: 900, color: INK }}>
             30,5 тис.
           </div>
         </div>
@@ -128,7 +127,7 @@ export const SalaryBars: React.FC = () => {
 };
 
 /* ------------------------------------------------------------------ *
- * Copywriter vacancies: a before/after pair, not a trend line.
+ * Copywriter vacancies: a before/after pair.
  * ------------------------------------------------------------------ */
 
 export const CopywriterDrop: React.FC = () => {
@@ -145,10 +144,10 @@ export const CopywriterDrop: React.FC = () => {
       <div
         style={{
           fontFamily,
-          fontSize: 54,
+          fontSize: 36,
           fontWeight: 900,
-          color: "white",
-          marginBottom: 12,
+          color: INK,
+          marginBottom: 8,
         }}
       >
         {value}
@@ -161,16 +160,16 @@ export const CopywriterDrop: React.FC = () => {
             easing: EASE,
           }),
           background: color,
-          borderRadius: "8px 8px 0 0",
+          borderRadius: "5px 5px 0 0",
         }}
       />
       <div
         style={{
           fontFamily,
-          fontSize: 25,
+          fontSize: 17,
           fontWeight: 700,
-          color: TEXT_SECONDARY,
-          marginTop: 12,
+          color: INK_SOFT,
+          marginTop: 8,
         }}
       >
         {caption}
@@ -181,33 +180,33 @@ export const CopywriterDrop: React.FC = () => {
   return (
     <Panel>
       <Kicker>Вакансії для копірайтерів</Kicker>
-      <div style={{ display: "flex", alignItems: "flex-end", gap: 56, height: 250 }}>
-        <Col value={125} caption="три роки тому" color={SERIES_1} height={190} delay={8} />
+      <div style={{ display: "flex", alignItems: "flex-end", gap: 40, height: 168 }}>
+        <Col value={125} caption="три роки тому" color={DATA_BLUE} height={124} delay={8} />
         <div
           style={{
             fontFamily,
-            fontSize: 60,
+            fontSize: 40,
             fontWeight: 900,
-            color: ACCENT,
-            paddingBottom: 60,
+            color: DATA_RED,
+            paddingBottom: 42,
           }}
         >
           −60%
         </div>
-        <Col value={50} caption="зараз" color={SERIES_2} height={76} delay={26} />
+        <Col value={50} caption="зараз" color={DATA_ORANGE} height={50} delay={26} />
       </div>
       <Rise delay={44} collapse>
         <div
           style={{
             fontFamily,
-            fontSize: 28,
+            fontSize: 20,
             fontWeight: 700,
-            color: "white",
-            marginTop: 18,
+            color: INK,
+            marginTop: 12,
             lineHeight: 1.2,
           }}
         >
-          На місяць. Так само впали перекладачі англійської.
+          На місяць. Так само впали вакансії для перекладачів англійської.
         </div>
         <SourceLine>Work.ua за методологією МОП · dengi.ua</SourceLine>
       </Rise>
@@ -217,8 +216,8 @@ export const CopywriterDrop: React.FC = () => {
 
 /* ------------------------------------------------------------------ *
  * Divergence: who lost vacancies and who gained them.
- * Polarity, so the documented diverging pair — blue up, red down,
- * validated against this card's surface.
+ * Polarity, so the documented light diverging pair — blue up, red down,
+ * validated on the white card surface.
  * ------------------------------------------------------------------ */
 
 const DIVERGE = [
@@ -227,11 +226,9 @@ const DIVERGE = [
   { label: "Будівельники", value: 33, delay: 36 },
   { label: "Зварювальники", value: 28, delay: 50 },
 ];
-const DOWN = "#e66767";
-const UP = "#3987e5";
-const PX_PER_POINT = 2.5;
-const LABEL_W = 300;
-const HALF_W = 240;
+const PX_PER_POINT = 1.9;
+const LABEL_W = 230;
+const HALF_W = 190;
 
 export const DivergenceChart: React.FC = () => {
   const frame = useCurrentFrame();
@@ -253,9 +250,9 @@ export const DivergenceChart: React.FC = () => {
           <div
             style={{
               fontFamily,
-              fontSize: 27,
+              fontSize: 20,
               fontWeight: 900,
-              color: "white",
+              color: INK,
               opacity: grown,
               whiteSpace: "nowrap",
             }}
@@ -268,9 +265,9 @@ export const DivergenceChart: React.FC = () => {
           <div
             style={{
               width: w,
-              height: 32,
-              background: positive ? UP : DOWN,
-              borderRadius: positive ? "0 6px 6px 0" : "6px 0 0 6px",
+              height: 24,
+              background: positive ? DATA_BLUE : DATA_RED,
+              borderRadius: positive ? "0 5px 5px 0" : "5px 0 0 5px",
             }}
           />
         );
@@ -278,48 +275,52 @@ export const DivergenceChart: React.FC = () => {
         return (
           <div
             key={row.label}
-            style={{ display: "flex", alignItems: "center", marginBottom: 13 }}
+            style={{ display: "flex", alignItems: "center", marginBottom: 9 }}
           >
             <div
               style={{
                 fontFamily,
-                fontSize: 25,
+                fontSize: 19,
                 fontWeight: 700,
                 width: LABEL_W,
                 textAlign: "right",
-                paddingRight: 18,
+                paddingRight: 14,
                 boxSizing: "border-box",
-                color: "white",
-                lineHeight: 1.12,
+                color: INK,
+                lineHeight: 1.1,
               }}
             >
               {row.label}
             </div>
 
-            {/* left arm: bar grows away from the zero line */}
             <div
               style={{
                 width: HALF_W,
                 display: "flex",
                 justifyContent: "flex-end",
                 alignItems: "center",
-                gap: 12,
+                gap: 9,
               }}
             >
               {positive ? null : value}
               {positive ? null : bar}
             </div>
 
-            <div style={{ width: 2, alignSelf: "stretch", background: "rgba(255,255,255,0.3)" }} />
+            <div
+              style={{
+                width: 1,
+                alignSelf: "stretch",
+                background: "rgba(20,20,26,0.3)",
+              }}
+            />
 
-            {/* right arm */}
             <div
               style={{
                 width: HALF_W,
                 display: "flex",
                 justifyContent: "flex-start",
                 alignItems: "center",
-                gap: 12,
+                gap: 9,
               }}
             >
               {positive ? bar : null}

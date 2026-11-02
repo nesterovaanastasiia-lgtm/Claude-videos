@@ -24,9 +24,14 @@ import {
   WrenchIcon,
 } from "./Icons";
 import {
+  AMBER,
   COFFEE,
   CREAM,
+  DATA_BLUE,
   DATA_RED,
+  GREEN,
+  Highlight,
+  Pill,
   EASE,
   HAIRLINE,
   INK,
@@ -40,7 +45,11 @@ import {
 } from "./ui";
 
 /** Fifty cups filling in — the hook, and the break-even number later on. */
-export const CupGrid: React.FC<{ title: string; sub: string }> = ({ title, sub }) => {
+export const CupGrid: React.FC<{
+  title: string;
+  sub: string;
+  accent?: string;
+}> = ({ title, sub, accent = AMBER }) => {
   const frame = useCurrentFrame();
   const shown = Math.round(
     interpolate(frame, [6, 54], [0, 50], {
@@ -51,19 +60,19 @@ export const CupGrid: React.FC<{ title: string; sub: string }> = ({ title, sub }
   );
 
   return (
-    <Panel>
+    <Panel accent={accent}>
       <div style={{ display: "flex", flexWrap: "wrap", gap: 7, marginBottom: 16 }}>
         {Array.from({ length: 50 }).map((_, i) => (
-          <div key={i} style={{ opacity: i < shown ? 1 : 0.13 }}>
-            <CupIcon size={26} color={i < shown ? COFFEE : INK_SOFT} sw={1.7} />
+          <div key={i} style={{ opacity: i < shown ? 1 : 0.16 }}>
+            <CupIcon size={26} color={i < shown ? accent : INK_SOFT} sw={1.9} />
           </div>
         ))}
       </div>
       <div style={{ fontFamily, fontSize: 38, fontWeight: 900, color: INK, lineHeight: 1.1 }}>
-        {title}
+        <Highlight color={accent}>{title}</Highlight>
       </div>
       <div
-        style={{ fontFamily, fontSize: 21, fontWeight: 700, color: COFFEE, marginTop: 6 }}
+        style={{ fontFamily, fontSize: 21, fontWeight: 700, color: INK_SOFT, marginTop: 10 }}
       >
         {sub}
       </div>
@@ -78,10 +87,12 @@ export const BigMoney: React.FC<{
   label: string;
   color?: string;
   note?: string;
-}> = ({ kicker, value, label, color = INK, note }) => (
-  <Panel>
+}> = ({ kicker, value, label, color = AMBER, note }) => (
+  <Panel accent={color}>
     <Kicker>{kicker}</Kicker>
-    <Money value={value} size={78} color={color} />
+    <Pill bg={color} size={64}>
+      {value} ₴
+    </Pill>
     <div
       style={{
         fontFamily,
@@ -108,7 +119,7 @@ const VARIABLE = [
 
 /** What actually leaves the till when one cup is sold. */
 export const CupBreakdown: React.FC = () => (
-  <Panel>
+  <Panel accent={DATA_RED}>
     <Kicker>Що з'їдає одна продана чашка</Kicker>
     <div style={{ display: "flex", flexWrap: "wrap", gap: 10, marginBottom: 16 }}>
       {VARIABLE.map((v) => {
@@ -120,7 +131,7 @@ export const CupBreakdown: React.FC = () => (
                 display: "flex",
                 alignItems: "center",
                 gap: 9,
-                background: "rgba(138,90,43,0.10)",
+                background: "rgba(237,161,0,0.22)",
                 borderRadius: 999,
                 padding: "8px 16px",
               }}
@@ -135,8 +146,10 @@ export const CupBreakdown: React.FC = () => (
       })}
     </div>
     <Rise delay={168} collapse>
-      <div style={{ display: "flex", alignItems: "baseline", gap: 14 }}>
-        <Money value="24" size={58} color={DATA_RED} />
+      <div style={{ display: "flex", alignItems: "center", gap: 14 }}>
+        <Pill bg={DATA_RED} size={52}>
+          24 ₴
+        </Pill>
         <span style={{ fontFamily, fontSize: 22, fontWeight: 700, color: INK_SOFT }}>
           зі 100 ₴
         </span>
@@ -156,7 +169,9 @@ export const MarginRow: React.FC = () => {
     delay,
   }) => (
     <Rise delay={delay} style={{ textAlign: "center" }}>
-      <Money value={v} size={50} color={c} />
+      <Pill bg={c} size={42}>
+        {v} ₴
+      </Pill>
       <div
         style={{ fontFamily, fontSize: 17, fontWeight: 700, color: INK_SOFT, marginTop: 4 }}
       >
@@ -172,7 +187,7 @@ export const MarginRow: React.FC = () => {
   );
 
   return (
-    <Panel>
+    <Panel accent={DATA_BLUE}>
       <Kicker>Одна чашка</Kicker>
       <div
         style={{
@@ -186,7 +201,7 @@ export const MarginRow: React.FC = () => {
         {op("−")}
         <Cell v="24" l="собівартість" c={DATA_RED} delay={12} />
         {op("=")}
-        <Cell v="76" l="лишається" c={INK} delay={28} />
+        <Cell v="76" l="лишається" c={AMBER} delay={28} />
       </div>
       <Rise delay={72} collapse>
         <div
@@ -224,7 +239,7 @@ const FIXED = [
 
 /** Everything that costs the same whether anyone walks in or not. */
 export const FixedCosts: React.FC = () => (
-  <Panel>
+  <Panel accent={DATA_RED}>
     <Kicker>Платиться щодня, навіть без клієнтів</Kicker>
     <div style={{ display: "flex", flexWrap: "wrap", gap: 9 }}>
       {FIXED.map((f) => {
@@ -236,8 +251,8 @@ export const FixedCosts: React.FC = () => (
                 display: "flex",
                 alignItems: "center",
                 gap: 9,
-                background: "rgba(28,23,16,0.05)",
-                border: `1px solid ${HAIRLINE}`,
+                background: "rgba(227,73,72,0.12)",
+                border: "1px solid rgba(227,73,72,0.3)",
                 borderRadius: 14,
                 padding: "9px 14px",
               }}
@@ -266,7 +281,7 @@ export const BreakEven: React.FC = () => {
   const frame = useCurrentFrame();
 
   return (
-    <Panel>
+    <Panel accent={AMBER}>
       <Kicker>Скільки треба продати, щоб вийти в нуль</Kicker>
       <div
         style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: 16 }}
@@ -295,8 +310,8 @@ export const BreakEven: React.FC = () => {
             textAlign: "center",
           }}
         >
-          <div style={{ fontFamily, fontSize: 44, fontWeight: 900, color: COFFEE }}>
-            ≈ 1 500 чашок / місяць
+          <div style={{ fontFamily, fontSize: 42, fontWeight: 900, color: INK }}>
+            <Highlight color={GREEN}>≈ 1 500 чашок / місяць</Highlight>
           </div>
         </div>
       </Rise>
@@ -307,7 +322,7 @@ export const BreakEven: React.FC = () => {
             marginTop: 12,
             textAlign: "center",
             fontFamily,
-            fontSize: 58,
+            fontSize: 54,
             fontWeight: 900,
             color: INK,
             scale: interpolate(frame, [280, 294], [0.82, 1], {
@@ -318,7 +333,9 @@ export const BreakEven: React.FC = () => {
             }),
           }}
         >
-          50 чашок на день
+          <Pill bg={AMBER} size={54}>
+            50 чашок на день
+          </Pill>
         </div>
       </Rise>
     </Panel>
@@ -336,7 +353,7 @@ const RISKS = [
 
 /** Everything that can go wrong on top of the arithmetic. */
 export const RiskList: React.FC = () => (
-  <Panel>
+  <Panel accent={DATA_RED}>
     <Kicker>І це ще без сюрпризів</Kicker>
     {RISKS.map((r) => {
       const Icon = r.icon;
@@ -365,7 +382,7 @@ const TRADES = [
 ];
 
 export const SameLogic: React.FC = () => (
-  <Panel>
+  <Panel accent={DATA_BLUE}>
     <Kicker>Логіка та сама</Kicker>
     <div style={{ display: "flex", gap: 10 }}>
       {TRADES.map((t, i) => {
@@ -374,13 +391,13 @@ export const SameLogic: React.FC = () => (
           <Rise key={t.label} delay={i * 12} style={{ flex: 1 }}>
             <div
               style={{
-                background: "rgba(138,90,43,0.09)",
+                background: "rgba(42,120,214,0.13)",
                 borderRadius: 18,
                 padding: "16px 8px",
                 textAlign: "center",
               }}
             >
-              <Icon size={34} color={COFFEE} />
+              <Icon size={34} color={DATA_BLUE} />
               <div
                 style={{
                   fontFamily,
@@ -403,7 +420,7 @@ export const SameLogic: React.FC = () => (
 
 /** The comment she quotes, struck through. */
 export const MythCard: React.FC = () => (
-  <Panel>
+  <Panel accent={DATA_RED}>
     <div
       style={{
         fontFamily,
@@ -435,8 +452,12 @@ export const MythCard: React.FC = () => (
 );
 
 /** A quiet pull-quote for the emotional turn. */
-export const QuoteCard: React.FC<{ text: string; sub?: string }> = ({ text, sub }) => (
-  <Panel style={{ background: CREAM }}>
+export const QuoteCard: React.FC<{
+  text: string;
+  sub?: string;
+  accent?: string;
+}> = ({ text, sub, accent = DATA_BLUE }) => (
+  <Panel accent={accent} style={{ background: CREAM }}>
     <div
       style={{ fontFamily, fontSize: 34, fontWeight: 800, color: INK, lineHeight: 1.22 }}
     >
@@ -449,7 +470,7 @@ export const QuoteCard: React.FC<{ text: string; sub?: string }> = ({ text, sub 
             fontFamily,
             fontSize: 21,
             fontWeight: 700,
-            color: COFFEE,
+            color: INK_SOFT,
             marginTop: 12,
             lineHeight: 1.22,
           }}
@@ -463,7 +484,7 @@ export const QuoteCard: React.FC<{ text: string; sub?: string }> = ({ text, sub 
 
 /** Her own disclaimer, shown where she says it. */
 export const AssumptionCard: React.FC = () => (
-  <Panel style={{ background: "rgba(255,248,232,0.94)" }}>
+  <Panel accent={AMBER} style={{ background: "rgba(255,248,232,0.95)" }}>
     <div style={{ display: "flex", alignItems: "center", gap: 14 }}>
       <CalcIcon size={34} color={COFFEE} />
       <div style={{ fontFamily, fontSize: 26, fontWeight: 800, color: INK, lineHeight: 1.2 }}>
@@ -475,9 +496,9 @@ export const AssumptionCard: React.FC = () => (
 
 /** Reassurance before the closing call. */
 export const YouAreNotAloneCard: React.FC = () => (
-  <Panel>
+  <Panel accent={GREEN}>
     <div style={{ fontFamily, fontSize: 40, fontWeight: 900, color: INK, lineHeight: 1.12 }}>
-      Ви не одні.
+      <Highlight color={GREEN}>Ви не одні.</Highlight>
     </div>
     <Rise delay={16} collapse>
       <div
@@ -499,7 +520,7 @@ export const YouAreNotAloneCard: React.FC = () => (
 
 /** Closing call to action. */
 export const ClosingCard: React.FC = () => (
-  <Panel style={{ background: "rgba(255,248,232,0.95)" }}>
+  <Panel accent={AMBER} style={{ background: "rgba(255,248,232,0.96)" }}>
     <div style={{ display: "flex", alignItems: "center", gap: 16 }}>
       <CupIcon size={46} color={COFFEE} sw={1.6} />
       <div style={{ fontFamily, fontSize: 32, fontWeight: 900, color: INK, lineHeight: 1.15 }}>
@@ -512,7 +533,7 @@ export const ClosingCard: React.FC = () => (
           fontFamily,
           fontSize: 22,
           fontWeight: 700,
-          color: COFFEE,
+          color: INK_SOFT,
           marginTop: 12,
           lineHeight: 1.25,
         }}

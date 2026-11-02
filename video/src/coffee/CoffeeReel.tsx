@@ -16,7 +16,7 @@ import {
   SameLogic,
   YouAreNotAloneCard,
 } from "./Cards";
-import { COFFEE, DATA_RED, MONEY_IN } from "./ui";
+import { AMBER, COFFEE, DATA_RED, GREEN, MONEY_IN } from "./ui";
 
 export const COFFEE_DURATION = 6987;
 const SRC = staticFile("coffee-source.mp4");
@@ -27,9 +27,18 @@ const SRC = staticFile("coffee-source.mp4");
  * just above the subtitles. Alternating between the two keeps a long video
  * moving.
  */
+/**
+ * Centred in the gap between the top of frame and her head (~y=530), so the
+ * cards clear Instagram's top chrome instead of hugging the edge.
+ */
 const TopSlot: React.FC<{ children: React.ReactNode }> = ({ children }) => (
   <AbsoluteFill
-    style={{ justifyContent: "flex-start", alignItems: "center", paddingTop: 66 }}
+    style={{
+      justifyContent: "center",
+      alignItems: "center",
+      paddingTop: 60,
+      paddingBottom: 1380,
+    }}
   >
     {children}
   </AbsoluteFill>
@@ -77,6 +86,7 @@ export const CoffeeReel: React.FC = () => {
       <Sequence name="Юніт-економіка" from={520} durationInFrames={360}>
         <TopSlot>
           <QuoteCard
+            accent={COFFEE}
             text="Юніт-економіка маленької кав'ярні"
             sub="Порахувала за один день. Справжні цифри озадачили."
           />
@@ -120,6 +130,7 @@ export const CoffeeReel: React.FC = () => {
       <Sequence name="Закуплено наперед" from={1850} durationInFrames={500}>
         <LowSlot>
           <QuoteCard
+            accent={AMBER}
             text="Зерно, молоко і стакани купують наперед"
             sub="Не продали — псується в холодильнику."
           />
@@ -136,7 +147,10 @@ export const CoffeeReel: React.FC = () => {
       {/* 1:33 з цих 76 платиться все інше */}
       <Sequence name="З цих 76" from={2800} durationInFrames={170}>
         <TopSlot>
-          <QuoteCard text="Із цих 76 ₴ треба заплатити все, що коштує однаково щодня" />
+          <QuoteCard
+            accent={DATA_RED}
+            text="Із цих 76 ₴ треба заплатити все, що коштує однаково щодня"
+          />
         </TopSlot>
       </Sequence>
 
@@ -191,6 +205,7 @@ export const CoffeeReel: React.FC = () => {
       <Sequence name="За кожною чашкою" from={5100} durationInFrames={380}>
         <TopSlot>
           <QuoteCard
+            accent={GREEN}
             text="За кожною чашкою — людина"
             sub="Відкрила о 7:00. Пам'ятає, хто яку каву любить. Закриває зміну, коли всі вже вдома."
           />
@@ -201,6 +216,7 @@ export const CoffeeReel: React.FC = () => {
       <Sequence name="Платимо не за каву" from={5500} durationInFrames={310}>
         <TopSlot>
           <QuoteCard
+            accent={GREEN}
             text="Ми платимо не за каву"
             sub="А за те, що хтось узяв на себе всю цю систему."
           />
@@ -211,6 +227,7 @@ export const CoffeeReel: React.FC = () => {
       <Sequence name="Біль власника" from={6010} durationInFrames={310}>
         <TopSlot>
           <QuoteCard
+            accent={DATA_RED}
             text="«Собівартість же 24 ₴»"
             sub="А наприкінці місяця не ясно, чи вистачить на всі витрати."
           />

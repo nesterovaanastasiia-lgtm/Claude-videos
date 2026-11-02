@@ -339,6 +339,84 @@ export const CaveatCard: React.FC = () => (
   </Panel>
 );
 
+/**
+ * Two labour markets inside one, from the author's own benchmark.
+ * The company names on her slide are internal, so only the roles appear.
+ */
+export const RatioCard: React.FC = () => {
+  const Side: React.FC<{
+    role: string;
+    value: string;
+    note: string;
+    color: string;
+    delay: number;
+  }> = ({ role, value, note, color, delay }) => (
+    <Rise delay={delay} style={{ flex: 1 }}>
+      <div
+        style={{
+          fontFamily,
+          fontSize: 17,
+          fontWeight: 800,
+          letterSpacing: 1.6,
+          textTransform: "uppercase",
+          color: INK_SOFT,
+        }}
+      >
+        {role}
+      </div>
+      <div
+        style={{
+          fontFamily,
+          fontSize: 58,
+          fontWeight: 900,
+          lineHeight: 1,
+          color,
+          marginTop: 4,
+        }}
+      >
+        {value}
+      </div>
+      <div
+        style={{
+          fontFamily,
+          fontSize: 17,
+          fontWeight: 700,
+          color: INK,
+          marginTop: 8,
+          lineHeight: 1.25,
+          whiteSpace: "pre-line",
+        }}
+      >
+        {note}
+      </div>
+    </Rise>
+  );
+
+  return (
+    <Panel>
+      <Kicker>Вересень 2026 · відгуків на одну вакансію</Kicker>
+      <div style={{ display: "flex", gap: 26 }}>
+        <Side
+          role="embedded"
+          value="6,0"
+          note={"За рік не піднімалось вище 6.\n146 вакансій у вересні."}
+          color={DATA_BLUE}
+          delay={0}
+        />
+        <div style={{ width: 1, background: HAIRLINE }} />
+        <Side
+          role="frontend"
+          value="274,6"
+          note={"Конкуренція втричі зросла.\nВакансій: 306 → 91."}
+          color={DATA_RED}
+          delay={18}
+        />
+      </div>
+      <SourceLine>Власне дослідження ринку</SourceLine>
+    </Panel>
+  );
+};
+
 /** Closing advice. */
 export const AdviceCard: React.FC = () => (
   <Panel>
@@ -372,6 +450,7 @@ export const AdviceCard: React.FC = () => (
 );
 
 const SOURCES = [
+  "Власне дослідження ринку праці",
   "OLX Робота · thepage.ua",
   "Мінекономіки · epravda.com.ua",
   "Work.ua / МОП · dengi.ua",
@@ -385,7 +464,7 @@ export const SourcesCard: React.FC = () => (
   <Panel>
     <Kicker>Джерела</Kicker>
     {SOURCES.map((s, i) => (
-      <Rise key={s} delay={i * 7} collapse>
+      <Rise key={s} delay={i * 5} collapse>
         <div
           style={{
             fontFamily,

@@ -9,6 +9,7 @@ import {
   MismatchCard,
   PrestigeList,
   QuoteCard,
+  RatioCard,
   ShotCard,
   SourcesCard,
   StatPair,
@@ -177,14 +178,21 @@ export const TradesReel: React.FC = () => {
       </Sequence>
 
       {/* 1:58 "не в класичний IT-фронтенд, а в інженерні напрямки" */}
-      <Sequence name="Порада" from={3560} durationInFrames={205}>
+      <Sequence name="Порада" from={3560} durationInFrames={140}>
         <GraphicSlot>
           <AdviceCard />
         </GraphicSlot>
       </Sequence>
 
+      {/* 2:04 два ринки всередині одного */}
+      <Sequence name="Фронтенд vs embedded" from={3706} durationInFrames={225}>
+        <GraphicSlot>
+          <RatioCard />
+        </GraphicSlot>
+      </Sequence>
+
       {/* 2:05 фінал */}
-      <Sequence name="Джерела" from={3790} durationInFrames={267}>
+      <Sequence name="Джерела" from={3940} durationInFrames={117}>
         <GraphicSlot>
           <SourcesCard />
         </GraphicSlot>

@@ -11,6 +11,7 @@ import {
   Timeline,
   TwoCards,
 } from "./Overlays";
+import { Captions } from "./Captions";
 import { NVIDIA_DURATION } from "./theme";
 import { Scrim } from "./ui";
 
@@ -19,8 +20,9 @@ import { Scrim } from "./ui";
  * word timestamps in nvidia-transcript.json — every beat starts on the word
  * that introduces it, not on a round second.
  *
- * The supplied cut already carries burned-in subtitles, so this composition
- * adds no caption layer of its own.
+ * The cut is supplied without subtitles, so the caption layer is rendered
+ * here: 2-4 words a page from the word timestamps, gold on the spoken word,
+ * and stepped aside under the full-screen plates.
  */
 export const NvidiaReel: React.FC = () => {
   return (
@@ -74,6 +76,8 @@ export const NvidiaReel: React.FC = () => {
       <Sequence name="8b · Фінал" from={3100} durationInFrames={NVIDIA_DURATION - 3100}>
         <FinalPlate />
       </Sequence>
+
+      <Captions />
     </AbsoluteFill>
   );
 };

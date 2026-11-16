@@ -143,11 +143,28 @@ const NODES = [
   { date: "3 і 10 грудня", text: "Міністр торгівлі США\nсвідчить у Сенаті", delay: 306, gold: true },
 ];
 
+const CRASH_IN = 608 - 456;
+const CRASH_OUT = 742 - 456;
+
 export const Timeline: React.FC = () => {
   const frame = useCurrentFrame();
+  // Hand the band over to the crash chart, then take it back.
+  const yielded = interpolate(
+    frame,
+    [CRASH_IN - 8, CRASH_IN, CRASH_OUT, CRASH_OUT + 8],
+    [1, 0, 0, 1],
+    { extrapolateLeft: "clamp", extrapolateRight: "clamp" },
+  );
 
   return (
-    <AbsoluteFill style={{ justifyContent: "flex-end", alignItems: "center", paddingBottom: 505 }}>
+    <AbsoluteFill
+      style={{
+        justifyContent: "flex-end",
+        alignItems: "center",
+        paddingBottom: 620,
+        opacity: yielded,
+      }}
+    >
       <Card tone="cream" style={{ width: 980 }}>
         <Kicker>Коротко, що сталося</Kicker>
         <div style={{ position: "relative", display: "flex", gap: 16 }}>
@@ -255,7 +272,7 @@ export const CrashChart: React.FC = () => {
   const path = POINTS.map((p, i) => `${i === 0 ? "M" : "L"} ${p[0]} ${p[1]}`).join(" ");
 
   return (
-    <AbsoluteFill style={{ justifyContent: "flex-start", alignItems: "center", paddingTop: 300 }}>
+    <AbsoluteFill style={{ justifyContent: "flex-end", alignItems: "center", paddingBottom: 640 }}>
       <Card tone="cream" style={{ width: 940 }}>
         <Kicker>Капіталізація Nvidia</Kicker>
         <svg width={W} height={H} style={{ display: "block", overflow: "visible" }}>
@@ -300,11 +317,18 @@ export const TwoCards: React.FC = () => {
       (frame >= pulseAt && frame <= pulseAt + 12 ? 1 : 0);
 
   return (
-    <AbsoluteFill style={{ justifyContent: "center", alignItems: "center", padding: "0 50px" }}>
-      <div style={{ display: "flex", gap: 24, alignItems: "stretch", width: "100%" }}>
+    <AbsoluteFill
+      style={{
+        justifyContent: "flex-end",
+        alignItems: "center",
+        padding: "0 50px",
+        paddingBottom: 620,
+      }}
+    >
+      <div style={{ display: "flex", gap: 22, alignItems: "stretch", width: "100%" }}>
         <Enter delay={0} style={{ flex: 1, display: "flex" }}>
           <Card tone="cream" style={{ opacity: 0.35, width: "100%" }}>
-            <Heading size={36}>Схема експортного контролю</Heading>
+            <Heading size={32}>Схема експортного контролю</Heading>
           </Card>
         </Enter>
         <Enter delay={10} style={{ flex: 1.1, display: "flex" }}>
@@ -312,7 +336,7 @@ export const TwoCards: React.FC = () => {
             tone="olive"
             style={{ width: "100%", scale: String(1.1 * pulse), boxShadow: "0 24px 60px rgba(48,56,31,0.5)" }}
           >
-            <Heading size={36} color={CREAM}>
+            <Heading size={32} color={CREAM}>
               Роман із підозрюваною в шпигунстві
             </Heading>
           </Card>
@@ -474,7 +498,7 @@ export const Checklist: React.FC = () => {
         justifyContent: "flex-end",
         alignItems: "center",
         padding: "0 56px",
-        paddingBottom: 410,
+        paddingBottom: 620,
       }}
     >
       <Card tone="cream" style={{ width: "100%", padding: "20px 28px" }}>

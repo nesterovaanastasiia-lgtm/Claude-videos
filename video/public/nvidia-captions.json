@@ -1,0 +1,2143 @@
+[
+{
+"startMs": 0,
+"endMs": 740,
+"tokens": [
+{
+"text": "Що",
+"fromMs": 0,
+"toMs": 260
+},
+{
+"text": "ви",
+"fromMs": 260,
+"toMs": 320
+},
+{
+"text": "знаєте",
+"fromMs": 320,
+"toMs": 640
+},
+{
+"text": "про",
+"fromMs": 640,
+"toMs": 740
+}
+]
+},
+{
+"startMs": 740,
+"endMs": 1860,
+"tokens": [
+{
+"text": "скандал",
+"fromMs": 740,
+"toMs": 1200
+},
+{
+"text": "в",
+"fromMs": 1200,
+"toMs": 1400
+},
+{
+"text": "NVIDIA?",
+"fromMs": 1400,
+"toMs": 1860
+}
+]
+},
+{
+"startMs": 2200,
+"endMs": 3400,
+"tokens": [
+{
+"text": "Швидше",
+"fromMs": 2200,
+"toMs": 2800
+},
+{
+"text": "за",
+"fromMs": 2800,
+"toMs": 2900
+},
+{
+"text": "все,",
+"fromMs": 2900,
+"toMs": 3060
+},
+{
+"text": "що",
+"fromMs": 3180,
+"toMs": 3400
+}
+]
+},
+{
+"startMs": 3400,
+"endMs": 5480,
+"tokens": [
+{
+"text": "в",
+"fromMs": 3400,
+"toMs": 3680
+},
+{
+"text": "керівника",
+"fromMs": 3680,
+"toMs": 4040
+},
+{
+"text": "були",
+"fromMs": 4040,
+"toMs": 4520
+},
+{
+"text": "численні",
+"fromMs": 4520,
+"toMs": 5480
+}
+]
+},
+{
+"startMs": 5480,
+"endMs": 5820,
+"tokens": [
+{
+"text": "романи.",
+"fromMs": 5480,
+"toMs": 5820
+}
+]
+},
+{
+"startMs": 5900,
+"endMs": 7140,
+"tokens": [
+{
+"text": "А",
+"fromMs": 5900,
+"toMs": 6400
+},
+{
+"text": "тепер",
+"fromMs": 6400,
+"toMs": 6620
+},
+{
+"text": "скажіть,",
+"fromMs": 6620,
+"toMs": 6980
+},
+{
+"text": "на",
+"fromMs": 6980,
+"toMs": 7140
+}
+]
+},
+{
+"startMs": 7140,
+"endMs": 8280,
+"tokens": [
+{
+"text": "яку",
+"fromMs": 7140,
+"toMs": 7320
+},
+{
+"text": "суму",
+"fromMs": 7320,
+"toMs": 7700
+},
+{
+"text": "його",
+"fromMs": 7700,
+"toMs": 7840
+},
+{
+"text": "коханка",
+"fromMs": 7840,
+"toMs": 8280
+}
+]
+},
+{
+"startMs": 8280,
+"endMs": 9380,
+"tokens": [
+{
+"text": "купила",
+"fromMs": 8280,
+"toMs": 8640
+},
+{
+"text": "в",
+"fromMs": 8640,
+"toMs": 8760
+},
+{
+"text": "NVIDIA",
+"fromMs": 8760,
+"toMs": 9040
+},
+{
+"text": "чіпів?",
+"fromMs": 9040,
+"toMs": 9380
+}
+]
+},
+{
+"startMs": 9520,
+"endMs": 10620,
+"tokens": [
+{
+"text": "Я",
+"fromMs": 9520,
+"toMs": 10080
+},
+{
+"text": "теж",
+"fromMs": 10080,
+"toMs": 10320
+},
+{
+"text": "не",
+"fromMs": 10320,
+"toMs": 10400
+},
+{
+"text": "знала.",
+"fromMs": 10400,
+"toMs": 10620
+}
+]
+},
+{
+"startMs": 10740,
+"endMs": 12460,
+"tokens": [
+{
+"text": "На",
+"fromMs": 10740,
+"toMs": 10940
+},
+{
+"text": "4",
+"fromMs": 10940,
+"toMs": 11240
+},
+{
+"text": "мільярди",
+"fromMs": 11240,
+"toMs": 11980
+},
+{
+"text": "800",
+"fromMs": 11980,
+"toMs": 12460
+}
+]
+},
+{
+"startMs": 12460,
+"endMs": 13860,
+"tokens": [
+{
+"text": "мільйонів",
+"fromMs": 12460,
+"toMs": 13400
+},
+{
+"text": "доларів.",
+"fromMs": 13400,
+"toMs": 13860
+}
+]
+},
+{
+"startMs": 14000,
+"endMs": 14820,
+"tokens": [
+{
+"text": "Коротко",
+"fromMs": 14000,
+"toMs": 14400
+},
+{
+"text": "про",
+"fromMs": 14400,
+"toMs": 14500
+},
+{
+"text": "те,",
+"fromMs": 14500,
+"toMs": 14640
+},
+{
+"text": "що",
+"fromMs": 14680,
+"toMs": 14820
+}
+]
+},
+{
+"startMs": 14820,
+"endMs": 15260,
+"tokens": [
+{
+"text": "сталося.",
+"fromMs": 14820,
+"toMs": 15260
+}
+]
+},
+{
+"startMs": 15340,
+"endMs": 16920,
+"tokens": [
+{
+"text": "8",
+"fromMs": 15340,
+"toMs": 15600
+},
+{
+"text": "листопада",
+"fromMs": 15600,
+"toMs": 16280
+},
+{
+"text": "Рада",
+"fromMs": 16280,
+"toMs": 16520
+},
+{
+"text": "директорів",
+"fromMs": 16520,
+"toMs": 16920
+}
+]
+},
+{
+"startMs": 16920,
+"endMs": 17880,
+"tokens": [
+{
+"text": "почала",
+"fromMs": 16920,
+"toMs": 17220
+},
+{
+"text": "розслідування.",
+"fromMs": 17220,
+"toMs": 17880
+}
+]
+},
+{
+"startMs": 17920,
+"endMs": 19380,
+"tokens": [
+{
+"text": "12",
+"fromMs": 17920,
+"toMs": 18200
+},
+{
+"text": "-го",
+"fromMs": 18200,
+"toMs": 18600
+},
+{
+"text": "Дженсен",
+"fromMs": 18600,
+"toMs": 19000
+},
+{
+"text": "Хуанг",
+"fromMs": 19000,
+"toMs": 19380
+}
+]
+},
+{
+"startMs": 19380,
+"endMs": 20320,
+"tokens": [
+{
+"text": "пішов",
+"fromMs": 19380,
+"toMs": 19680
+},
+{
+"text": "у",
+"fromMs": 19680,
+"toMs": 19700
+},
+{
+"text": "відставку.",
+"fromMs": 19700,
+"toMs": 20320
+}
+]
+},
+{
+"startMs": 20400,
+"endMs": 21360,
+"tokens": [
+{
+"text": "Акції",
+"fromMs": 20400,
+"toMs": 20800
+},
+{
+"text": "обвалилися.",
+"fromMs": 20800,
+"toMs": 21360
+}
+]
+},
+{
+"startMs": 21380,
+"endMs": 22800,
+"tokens": [
+{
+"text": "Компанія",
+"fromMs": 21380,
+"toMs": 21860
+},
+{
+"text": "за",
+"fromMs": 21860,
+"toMs": 21960
+},
+{
+"text": "тиждень",
+"fromMs": 21960,
+"toMs": 22340
+},
+{
+"text": "втратила",
+"fromMs": 22340,
+"toMs": 22800
+}
+]
+},
+{
+"startMs": 22800,
+"endMs": 24780,
+"tokens": [
+{
+"text": "сотні",
+"fromMs": 22800,
+"toMs": 23320
+},
+{
+"text": "мільярдів",
+"fromMs": 23320,
+"toMs": 23840
+},
+{
+"text": "капіталізації.",
+"fromMs": 23840,
+"toMs": 24780
+}
+]
+},
+{
+"startMs": 24780,
+"endMs": 26000,
+"tokens": [
+{
+"text": "А",
+"fromMs": 24780,
+"toMs": 25380
+},
+{
+"text": "3",
+"fromMs": 25380,
+"toMs": 25600
+},
+{
+"text": "-го",
+"fromMs": 25600,
+"toMs": 25920
+},
+{
+"text": "і",
+"fromMs": 25920,
+"toMs": 26000
+}
+]
+},
+{
+"startMs": 26000,
+"endMs": 27200,
+"tokens": [
+{
+"text": "10",
+"fromMs": 26000,
+"toMs": 26160
+},
+{
+"text": "-го",
+"fromMs": 26160,
+"toMs": 26460
+},
+{
+"text": "грудня",
+"fromMs": 26460,
+"toMs": 26840
+},
+{
+"text": "міністр",
+"fromMs": 26840,
+"toMs": 27200
+}
+]
+},
+{
+"startMs": 27200,
+"endMs": 29140,
+"tokens": [
+{
+"text": "торгівлі",
+"fromMs": 27200,
+"toMs": 27680
+},
+{
+"text": "США",
+"fromMs": 27680,
+"toMs": 27840
+},
+{
+"text": "буде",
+"fromMs": 27840,
+"toMs": 28560
+},
+{
+"text": "свідчити",
+"fromMs": 28560,
+"toMs": 29140
+}
+]
+},
+{
+"startMs": 29140,
+"endMs": 29600,
+"tokens": [
+{
+"text": "в",
+"fromMs": 29140,
+"toMs": 29200
+},
+{
+"text": "Сенаті.",
+"fromMs": 29200,
+"toMs": 29600
+}
+]
+},
+{
+"startMs": 29660,
+"endMs": 31260,
+"tokens": [
+{
+"text": "Але",
+"fromMs": 29660,
+"toMs": 30260
+},
+{
+"text": "не",
+"fromMs": 30260,
+"toMs": 30480
+},
+{
+"text": "про",
+"fromMs": 30480,
+"toMs": 30720
+},
+{
+"text": "романи,",
+"fromMs": 30720,
+"toMs": 31260
+}
+]
+},
+{
+"startMs": 31280,
+"endMs": 32500,
+"tokens": [
+{
+"text": "а",
+"fromMs": 31280,
+"toMs": 31480
+},
+{
+"text": "про",
+"fromMs": 31480,
+"toMs": 31620
+},
+{
+"text": "те,",
+"fromMs": 31620,
+"toMs": 31860
+},
+{
+"text": "як",
+"fromMs": 31980,
+"toMs": 32500
+}
+]
+},
+{
+"startMs": 32500,
+"endMs": 34300,
+"tokens": [
+{
+"text": "передові",
+"fromMs": 32500,
+"toMs": 32880
+},
+{
+"text": "чіпи",
+"fromMs": 32880,
+"toMs": 33240
+},
+{
+"text": "потрапили",
+"fromMs": 33240,
+"toMs": 34300
+}
+]
+},
+{
+"startMs": 34300,
+"endMs": 34900,
+"tokens": [
+{
+"text": "до",
+"fromMs": 34300,
+"toMs": 34580
+},
+{
+"text": "Китаю.",
+"fromMs": 34580,
+"toMs": 34900
+}
+]
+},
+{
+"startMs": 35060,
+"endMs": 36100,
+"tokens": [
+{
+"text": "Я",
+"fromMs": 35060,
+"toMs": 35500
+},
+{
+"text": "не",
+"fromMs": 35500,
+"toMs": 35640
+},
+{
+"text": "кажу,",
+"fromMs": 35640,
+"toMs": 35980
+},
+{
+"text": "що",
+"fromMs": 36000,
+"toMs": 36100
+}
+]
+},
+{
+"startMs": 36100,
+"endMs": 37100,
+"tokens": [
+{
+"text": "хтось",
+"fromMs": 36100,
+"toMs": 36480
+},
+{
+"text": "це",
+"fromMs": 36480,
+"toMs": 36640
+},
+{
+"text": "спланував.",
+"fromMs": 36640,
+"toMs": 37100
+}
+]
+},
+{
+"startMs": 37100,
+"endMs": 37800,
+"tokens": [
+{
+"text": "Я",
+"fromMs": 37100,
+"toMs": 37200
+},
+{
+"text": "кажу",
+"fromMs": 37200,
+"toMs": 37440
+},
+{
+"text": "інше.",
+"fromMs": 37440,
+"toMs": 37800
+}
+]
+},
+{
+"startMs": 37960,
+"endMs": 39200,
+"tokens": [
+{
+"text": "Наша",
+"fromMs": 37960,
+"toMs": 38400
+},
+{
+"text": "увага",
+"fromMs": 38400,
+"toMs": 38820
+},
+{
+"text": "саме",
+"fromMs": 38820,
+"toMs": 39080
+},
+{
+"text": "так",
+"fromMs": 39080,
+"toMs": 39200
+}
+]
+},
+{
+"startMs": 39200,
+"endMs": 39580,
+"tokens": [
+{
+"text": "працює.",
+"fromMs": 39200,
+"toMs": 39580
+}
+]
+},
+{
+"startMs": 39660,
+"endMs": 41240,
+"tokens": [
+{
+"text": "Між",
+"fromMs": 39660,
+"toMs": 39780
+},
+{
+"text": "схемою",
+"fromMs": 39780,
+"toMs": 40220
+},
+{
+"text": "експортного",
+"fromMs": 40220,
+"toMs": 40740
+},
+{
+"text": "контролю",
+"fromMs": 40740,
+"toMs": 41240
+}
+]
+},
+{
+"startMs": 41240,
+"endMs": 42840,
+"tokens": [
+{
+"text": "і",
+"fromMs": 41240,
+"toMs": 41540
+},
+{
+"text": "романом",
+"fromMs": 41540,
+"toMs": 42080
+},
+{
+"text": "із",
+"fromMs": 42080,
+"toMs": 42240
+},
+{
+"text": "підозрюваною",
+"fromMs": 42240,
+"toMs": 42840
+}
+]
+},
+{
+"startMs": 42840,
+"endMs": 44360,
+"tokens": [
+{
+"text": "в",
+"fromMs": 42840,
+"toMs": 42920
+},
+{
+"text": "шпигунстві",
+"fromMs": 42920,
+"toMs": 43440
+},
+{
+"text": "ми",
+"fromMs": 43440,
+"toMs": 43820
+},
+{
+"text": "щоразу",
+"fromMs": 43820,
+"toMs": 44360
+}
+]
+},
+{
+"startMs": 44360,
+"endMs": 45460,
+"tokens": [
+{
+"text": "будемо",
+"fromMs": 44360,
+"toMs": 44820
+},
+{
+"text": "обирати",
+"fromMs": 44820,
+"toMs": 45120
+},
+{
+"text": "друге.",
+"fromMs": 45120,
+"toMs": 45460
+}
+]
+},
+{
+"startMs": 45480,
+"endMs": 46680,
+"tokens": [
+{
+"text": "А",
+"fromMs": 45480,
+"toMs": 45580
+},
+{
+"text": "люди,",
+"fromMs": 45580,
+"toMs": 45940
+},
+{
+"text": "які",
+"fromMs": 45980,
+"toMs": 46160
+},
+{
+"text": "будують",
+"fromMs": 46160,
+"toMs": 46680
+}
+]
+},
+{
+"startMs": 46680,
+"endMs": 48300,
+"tokens": [
+{
+"text": "комунікацію,",
+"fromMs": 46680,
+"toMs": 47320
+},
+{
+"text": "це",
+"fromMs": 47420,
+"toMs": 47560
+},
+{
+"text": "чудово",
+"fromMs": 47560,
+"toMs": 47840
+},
+{
+"text": "знають.",
+"fromMs": 47840,
+"toMs": 48300
+}
+]
+},
+{
+"startMs": 48300,
+"endMs": 49440,
+"tokens": [
+{
+"text": "І",
+"fromMs": 48300,
+"toMs": 48540
+},
+{
+"text": "просто",
+"fromMs": 48540,
+"toMs": 48800
+},
+{
+"text": "дають",
+"fromMs": 48800,
+"toMs": 49240
+},
+{
+"text": "нам",
+"fromMs": 49240,
+"toMs": 49440
+}
+]
+},
+{
+"startMs": 49440,
+"endMs": 50700,
+"tokens": [
+{
+"text": "те,",
+"fromMs": 49440,
+"toMs": 49700
+},
+{
+"text": "на",
+"fromMs": 49900,
+"toMs": 50400
+},
+{
+"text": "що",
+"fromMs": 50400,
+"toMs": 50540
+},
+{
+"text": "ми",
+"fromMs": 50540,
+"toMs": 50700
+}
+]
+},
+{
+"startMs": 50700,
+"endMs": 51600,
+"tokens": [
+{
+"text": "і",
+"fromMs": 50700,
+"toMs": 50800
+},
+{
+"text": "так",
+"fromMs": 50800,
+"toMs": 51000
+},
+{
+"text": "поведемось.",
+"fromMs": 51000,
+"toMs": 51600
+}
+]
+},
+{
+"startMs": 51760,
+"endMs": 53380,
+"tokens": [
+{
+"text": "У",
+"fromMs": 51760,
+"toMs": 52120
+},
+{
+"text": "маркетингу",
+"fromMs": 52120,
+"toMs": 52680
+},
+{
+"text": "для",
+"fromMs": 52680,
+"toMs": 53120
+},
+{
+"text": "цього",
+"fromMs": 53120,
+"toMs": 53380
+}
+]
+},
+{
+"startMs": 53380,
+"endMs": 53860,
+"tokens": [
+{
+"text": "є",
+"fromMs": 53380,
+"toMs": 53480
+},
+{
+"text": "назва.",
+"fromMs": 53480,
+"toMs": 53860
+}
+]
+},
+{
+"startMs": 53900,
+"endMs": 54760,
+"tokens": [
+{
+"text": "Шлях",
+"fromMs": 53900,
+"toMs": 54420
+},
+{
+"text": "клієнтів.",
+"fromMs": 54420,
+"toMs": 54760
+}
+]
+},
+{
+"startMs": 54780,
+"endMs": 55900,
+"tokens": [
+{
+"text": "Кастомер",
+"fromMs": 54780,
+"toMs": 55360
+},
+{
+"text": "Джонні",
+"fromMs": 55360,
+"toMs": 55680
+},
+{
+"text": "Мепп.",
+"fromMs": 55680,
+"toMs": 55900
+}
+]
+},
+{
+"startMs": 56160,
+"endMs": 57840,
+"tokens": [
+{
+"text": "Хтось",
+"fromMs": 56160,
+"toMs": 56680
+},
+{
+"text": "завжди",
+"fromMs": 56680,
+"toMs": 57060
+},
+{
+"text": "вирішує,",
+"fromMs": 57060,
+"toMs": 57580
+},
+{
+"text": "що",
+"fromMs": 57620,
+"toMs": 57840
+}
+]
+},
+{
+"startMs": 57840,
+"endMs": 59380,
+"tokens": [
+{
+"text": "ви",
+"fromMs": 57840,
+"toMs": 58040
+},
+{
+"text": "помітите",
+"fromMs": 58040,
+"toMs": 58460
+},
+{
+"text": "першим,",
+"fromMs": 58460,
+"toMs": 59020
+},
+{
+"text": "що",
+"fromMs": 59040,
+"toMs": 59380
+}
+]
+},
+{
+"startMs": 59380,
+"endMs": 60360,
+"tokens": [
+{
+"text": "другим,",
+"fromMs": 59380,
+"toMs": 59880
+},
+{
+"text": "а",
+"fromMs": 59880,
+"toMs": 60020
+},
+{
+"text": "про",
+"fromMs": 60020,
+"toMs": 60120
+},
+{
+"text": "що",
+"fromMs": 60120,
+"toMs": 60360
+}
+]
+},
+{
+"startMs": 60360,
+"endMs": 61880,
+"tokens": [
+{
+"text": "в",
+"fromMs": 60360,
+"toMs": 60620
+},
+{
+"text": "своєму",
+"fromMs": 60620,
+"toMs": 60940
+},
+{
+"text": "клієнтському",
+"fromMs": 60940,
+"toMs": 61440
+},
+{
+"text": "досвіді",
+"fromMs": 61440,
+"toMs": 61880
+}
+]
+},
+{
+"startMs": 61880,
+"endMs": 63000,
+"tokens": [
+{
+"text": "взагалі",
+"fromMs": 61880,
+"toMs": 62340
+},
+{
+"text": "не",
+"fromMs": 62340,
+"toMs": 62480
+},
+{
+"text": "згадаєте.",
+"fromMs": 62480,
+"toMs": 63000
+}
+]
+},
+{
+"startMs": 63060,
+"endMs": 64020,
+"tokens": [
+{
+"text": "І",
+"fromMs": 63060,
+"toMs": 63260
+},
+{
+"text": "це",
+"fromMs": 63260,
+"toMs": 63380
+},
+{
+"text": "можете",
+"fromMs": 63380,
+"toMs": 63700
+},
+{
+"text": "робити",
+"fromMs": 63700,
+"toMs": 64020
+}
+]
+},
+{
+"startMs": 64020,
+"endMs": 65000,
+"tokens": [
+{
+"text": "і",
+"fromMs": 64020,
+"toMs": 64140
+},
+{
+"text": "ви",
+"fromMs": 64140,
+"toMs": 64320
+},
+{
+"text": "у",
+"fromMs": 64320,
+"toMs": 64680
+},
+{
+"text": "власному",
+"fromMs": 64680,
+"toMs": 65000
+}
+]
+},
+{
+"startMs": 65000,
+"endMs": 65560,
+"tokens": [
+{
+"text": "бізнесі.",
+"fromMs": 65000,
+"toMs": 65560
+}
+]
+},
+{
+"startMs": 65580,
+"endMs": 66820,
+"tokens": [
+{
+"text": "Цілком",
+"fromMs": 65580,
+"toMs": 66060
+},
+{
+"text": "свідомо",
+"fromMs": 66060,
+"toMs": 66560
+},
+{
+"text": "і",
+"fromMs": 66560,
+"toMs": 66600
+},
+{
+"text": "абсолютно",
+"fromMs": 66600,
+"toMs": 66820
+}
+]
+},
+{
+"startMs": 66820,
+"endMs": 67400,
+"tokens": [
+{
+"text": "чесно.",
+"fromMs": 66820,
+"toMs": 67400
+}
+]
+},
+{
+"startMs": 67760,
+"endMs": 69320,
+"tokens": [
+{
+"text": "Тільки",
+"fromMs": 67760,
+"toMs": 68280
+},
+{
+"text": "спершу",
+"fromMs": 68280,
+"toMs": 68700
+},
+{
+"text": "треба",
+"fromMs": 68700,
+"toMs": 68960
+},
+{
+"text": "відповісти",
+"fromMs": 68960,
+"toMs": 69320
+}
+]
+},
+{
+"startMs": 69320,
+"endMs": 70340,
+"tokens": [
+{
+"text": "собі",
+"fromMs": 69320,
+"toMs": 69680
+},
+{
+"text": "на",
+"fromMs": 69680,
+"toMs": 69740
+},
+{
+"text": "питання,",
+"fromMs": 69740,
+"toMs": 70160
+},
+{
+"text": "яке",
+"fromMs": 70200,
+"toMs": 70340
+}
+]
+},
+{
+"startMs": 70340,
+"endMs": 71600,
+"tokens": [
+{
+"text": "більшість",
+"fromMs": 70340,
+"toMs": 70980
+},
+{
+"text": "пропускає.",
+"fromMs": 70980,
+"toMs": 71600
+}
+]
+},
+{
+"startMs": 71780,
+"endMs": 73320,
+"tokens": [
+{
+"text": "Якої",
+"fromMs": 71780,
+"toMs": 72300
+},
+{
+"text": "саме",
+"fromMs": 72300,
+"toMs": 72780
+},
+{
+"text": "поведінки",
+"fromMs": 72780,
+"toMs": 73320
+}
+]
+},
+{
+"startMs": 73320,
+"endMs": 74120,
+"tokens": [
+{
+"text": "ви",
+"fromMs": 73320,
+"toMs": 73420
+},
+{
+"text": "хочете",
+"fromMs": 73420,
+"toMs": 73800
+},
+{
+"text": "від",
+"fromMs": 73800,
+"toMs": 73920
+},
+{
+"text": "свого",
+"fromMs": 73920,
+"toMs": 74120
+}
+]
+},
+{
+"startMs": 74120,
+"endMs": 74600,
+"tokens": [
+{
+"text": "клієнта?",
+"fromMs": 74120,
+"toMs": 74600
+}
+]
+},
+{
+"startMs": 74720,
+"endMs": 75800,
+"tokens": [
+{
+"text": "Він",
+"fromMs": 74720,
+"toMs": 75140
+},
+{
+"text": "має",
+"fromMs": 75140,
+"toMs": 75300
+},
+{
+"text": "купити",
+"fromMs": 75300,
+"toMs": 75620
+},
+{
+"text": "один",
+"fromMs": 75620,
+"toMs": 75800
+}
+]
+},
+{
+"startMs": 75800,
+"endMs": 77120,
+"tokens": [
+{
+"text": "раз",
+"fromMs": 75800,
+"toMs": 76060
+},
+{
+"text": "чи",
+"fromMs": 76060,
+"toMs": 76440
+},
+{
+"text": "повертатися?",
+"fromMs": 76440,
+"toMs": 77120
+}
+]
+},
+{
+"startMs": 77180,
+"endMs": 78040,
+"tokens": [
+{
+"text": "Якщо",
+"fromMs": 77180,
+"toMs": 77540
+},
+{
+"text": "так,",
+"fromMs": 77540,
+"toMs": 77720
+},
+{
+"text": "то",
+"fromMs": 77780,
+"toMs": 77920
+},
+{
+"text": "як",
+"fromMs": 77920,
+"toMs": 78040
+}
+]
+},
+{
+"startMs": 78040,
+"endMs": 78340,
+"tokens": [
+{
+"text": "часто?",
+"fromMs": 78040,
+"toMs": 78340
+}
+]
+},
+{
+"startMs": 78580,
+"endMs": 79440,
+"tokens": [
+{
+"text": "Чи",
+"fromMs": 78580,
+"toMs": 78940
+},
+{
+"text": "має",
+"fromMs": 78940,
+"toMs": 79080
+},
+{
+"text": "він",
+"fromMs": 79080,
+"toMs": 79220
+},
+{
+"text": "взяти",
+"fromMs": 79220,
+"toMs": 79440
+}
+]
+},
+{
+"startMs": 79440,
+"endMs": 80540,
+"tokens": [
+{
+"text": "щось",
+"fromMs": 79440,
+"toMs": 79660
+},
+{
+"text": "додаткове",
+"fromMs": 79660,
+"toMs": 80160
+},
+{
+"text": "до",
+"fromMs": 80160,
+"toMs": 80320
+},
+{
+"text": "того,",
+"fromMs": 80320,
+"toMs": 80540
+}
+]
+},
+{
+"startMs": 80560,
+"endMs": 81220,
+"tokens": [
+{
+"text": "за",
+"fromMs": 80560,
+"toMs": 80660
+},
+{
+"text": "чим",
+"fromMs": 80660,
+"toMs": 80820
+},
+{
+"text": "прийшов?",
+"fromMs": 80820,
+"toMs": 81220
+}
+]
+},
+{
+"startMs": 81220,
+"endMs": 82240,
+"tokens": [
+{
+"text": "Чи",
+"fromMs": 81220,
+"toMs": 81820
+},
+{
+"text": "має",
+"fromMs": 81820,
+"toMs": 81960
+},
+{
+"text": "він",
+"fromMs": 81960,
+"toMs": 82080
+},
+{
+"text": "вас",
+"fromMs": 82080,
+"toMs": 82240
+}
+]
+},
+{
+"startMs": 82240,
+"endMs": 83580,
+"tokens": [
+{
+"text": "рекомендувати",
+"fromMs": 82240,
+"toMs": 82960
+},
+{
+"text": "і",
+"fromMs": 82960,
+"toMs": 83280
+},
+{
+"text": "що",
+"fromMs": 83280,
+"toMs": 83440
+},
+{
+"text": "він",
+"fromMs": 83440,
+"toMs": 83580
+}
+]
+},
+{
+"startMs": 83580,
+"endMs": 84260,
+"tokens": [
+{
+"text": "за",
+"fromMs": 83580,
+"toMs": 83660
+},
+{
+"text": "це",
+"fromMs": 83660,
+"toMs": 83780
+},
+{
+"text": "отримує?",
+"fromMs": 83780,
+"toMs": 84260
+}
+]
+},
+{
+"startMs": 84300,
+"endMs": 84980,
+"tokens": [
+{
+"text": "Чи",
+"fromMs": 84300,
+"toMs": 84440
+},
+{
+"text": "маєте",
+"fromMs": 84440,
+"toMs": 84700
+},
+{
+"text": "ви",
+"fromMs": 84700,
+"toMs": 84780
+},
+{
+"text": "бути",
+"fromMs": 84780,
+"toMs": 84980
+}
+]
+},
+{
+"startMs": 84980,
+"endMs": 86420,
+"tokens": [
+{
+"text": "першою",
+"fromMs": 84980,
+"toMs": 85420
+},
+{
+"text": "людиною,",
+"fromMs": 85420,
+"toMs": 85780
+},
+{
+"text": "яка",
+"fromMs": 85840,
+"toMs": 85980
+},
+{
+"text": "приходить",
+"fromMs": 85980,
+"toMs": 86420
+}
+]
+},
+{
+"startMs": 86420,
+"endMs": 87120,
+"tokens": [
+{
+"text": "йому",
+"fromMs": 86420,
+"toMs": 86600
+},
+{
+"text": "на",
+"fromMs": 86600,
+"toMs": 86700
+},
+{
+"text": "думку,",
+"fromMs": 86700,
+"toMs": 87120
+}
+]
+},
+{
+"startMs": 87700,
+"endMs": 89180,
+"tokens": [
+{
+"text": "коли",
+"fromMs": 87700,
+"toMs": 87960
+},
+{
+"text": "потрібна",
+"fromMs": 87960,
+"toMs": 88580
+},
+{
+"text": "якась",
+"fromMs": 88580,
+"toMs": 88800
+},
+{
+"text": "послуга",
+"fromMs": 88800,
+"toMs": 89180
+}
+]
+},
+{
+"startMs": 89180,
+"endMs": 89940,
+"tokens": [
+{
+"text": "або",
+"fromMs": 89180,
+"toMs": 89300
+},
+{
+"text": "продукт?",
+"fromMs": 89300,
+"toMs": 89940
+}
+]
+},
+{
+"startMs": 89980,
+"endMs": 90920,
+"tokens": [
+{
+"text": "І",
+"fromMs": 89980,
+"toMs": 90200
+},
+{
+"text": "чи",
+"fromMs": 90200,
+"toMs": 90320
+},
+{
+"text": "готові",
+"fromMs": 90320,
+"toMs": 90800
+},
+{
+"text": "ви",
+"fromMs": 90800,
+"toMs": 90920
+}
+]
+},
+{
+"startMs": 90920,
+"endMs": 92580,
+"tokens": [
+{
+"text": "порадити",
+"fromMs": 90920,
+"toMs": 91680
+},
+{
+"text": "колегу,",
+"fromMs": 91680,
+"toMs": 92260
+},
+{
+"text": "коли",
+"fromMs": 92260,
+"toMs": 92580
+}
+]
+},
+{
+"startMs": 92580,
+"endMs": 93680,
+"tokens": [
+{
+"text": "самі",
+"fromMs": 92580,
+"toMs": 92920
+},
+{
+"text": "не",
+"fromMs": 92920,
+"toMs": 93000
+},
+{
+"text": "можете",
+"fromMs": 93000,
+"toMs": 93260
+},
+{
+"text": "закрити",
+"fromMs": 93260,
+"toMs": 93680
+}
+]
+},
+{
+"startMs": 93680,
+"endMs": 94640,
+"tokens": [
+{
+"text": "запит",
+"fromMs": 93680,
+"toMs": 94020
+},
+{
+"text": "свого",
+"fromMs": 94020,
+"toMs": 94220
+},
+{
+"text": "клієнта?",
+"fromMs": 94220,
+"toMs": 94640
+}
+]
+},
+{
+"startMs": 94740,
+"endMs": 96400,
+"tokens": [
+{
+"text": "Це",
+"fromMs": 94740,
+"toMs": 94900
+},
+{
+"text": "все",
+"fromMs": 94900,
+"toMs": 95200
+},
+{
+"text": "проєктується",
+"fromMs": 95200,
+"toMs": 95920
+},
+{
+"text": "наперед.",
+"fromMs": 95920,
+"toMs": 96400
+}
+]
+},
+{
+"startMs": 96780,
+"endMs": 98000,
+"tokens": [
+{
+"text": "Ви",
+"fromMs": 96780,
+"toMs": 97300
+},
+{
+"text": "не",
+"fromMs": 97300,
+"toMs": 97320
+},
+{
+"text": "імпровізуєте",
+"fromMs": 97320,
+"toMs": 97920
+},
+{
+"text": "в",
+"fromMs": 97920,
+"toMs": 98000
+}
+]
+},
+{
+"startMs": 98000,
+"endMs": 98460,
+"tokens": [
+{
+"text": "моменті.",
+"fromMs": 98000,
+"toMs": 98460
+}
+]
+},
+{
+"startMs": 98560,
+"endMs": 100000,
+"tokens": [
+{
+"text": "Бо",
+"fromMs": 98560,
+"toMs": 99080
+},
+{
+"text": "шлях",
+"fromMs": 99080,
+"toMs": 99360
+},
+{
+"text": "вашого",
+"fromMs": 99360,
+"toMs": 99620
+},
+{
+"text": "клієнта",
+"fromMs": 99620,
+"toMs": 100000
+}
+]
+},
+{
+"startMs": 100000,
+"endMs": 100960,
+"tokens": [
+{
+"text": "існує",
+"fromMs": 100000,
+"toMs": 100440
+},
+{
+"text": "в",
+"fromMs": 100440,
+"toMs": 100560
+},
+{
+"text": "будь",
+"fromMs": 100560,
+"toMs": 100720
+},
+{
+"text": "-якому",
+"fromMs": 100720,
+"toMs": 100960
+}
+]
+},
+{
+"startMs": 100960,
+"endMs": 101340,
+"tokens": [
+{
+"text": "разі.",
+"fromMs": 100960,
+"toMs": 101340
+}
+]
+},
+{
+"startMs": 101500,
+"endMs": 102520,
+"tokens": [
+{
+"text": "Питання",
+"fromMs": 101500,
+"toMs": 102020
+},
+{
+"text": "лише",
+"fromMs": 102020,
+"toMs": 102260
+},
+{
+"text": "в",
+"fromMs": 102260,
+"toMs": 102380
+},
+{
+"text": "тому,",
+"fromMs": 102380,
+"toMs": 102520
+}
+]
+},
+{
+"startMs": 102620,
+"endMs": 103900,
+"tokens": [
+{
+"text": "чи",
+"fromMs": 102620,
+"toMs": 102760
+},
+{
+"text": "ви",
+"fromMs": 102760,
+"toMs": 103000
+},
+{
+"text": "його",
+"fromMs": 103000,
+"toMs": 103280
+},
+{
+"text": "будуєте",
+"fromMs": 103280,
+"toMs": 103900
+}
+]
+},
+{
+"startMs": 103900,
+"endMs": 104800,
+"tokens": [
+{
+"text": "і",
+"fromMs": 103900,
+"toMs": 104000
+},
+{
+"text": "ведете",
+"fromMs": 104000,
+"toMs": 104280
+},
+{
+"text": "клієнта",
+"fromMs": 104280,
+"toMs": 104700
+},
+{
+"text": "за",
+"fromMs": 104700,
+"toMs": 104800
+}
+]
+},
+{
+"startMs": 104800,
+"endMs": 106460,
+"tokens": [
+{
+"text": "собою,",
+"fromMs": 104800,
+"toMs": 105240
+},
+{
+"text": "досягаючи",
+"fromMs": 105280,
+"toMs": 106040
+},
+{
+"text": "своєї",
+"fromMs": 106040,
+"toMs": 106460
+}
+]
+},
+{
+"startMs": 106460,
+"endMs": 106820,
+"tokens": [
+{
+"text": "мети.",
+"fromMs": 106460,
+"toMs": 106820
+}
+]
+},
+{
+"startMs": 106880,
+"endMs": 108820,
+"tokens": [
+{
+"text": "Чи",
+"fromMs": 106880,
+"toMs": 107300
+},
+{
+"text": "ви",
+"fromMs": 107300,
+"toMs": 107400
+},
+{
+"text": "просто",
+"fromMs": 107400,
+"toMs": 107720
+},
+{
+"text": "слідуєте",
+"fromMs": 107720,
+"toMs": 108820
+}
+]
+},
+{
+"startMs": 108820,
+"endMs": 110280,
+"tokens": [
+{
+"text": "сліпо",
+"fromMs": 108820,
+"toMs": 109220
+},
+{
+"text": "за",
+"fromMs": 109220,
+"toMs": 109540
+},
+{
+"text": "бажаннями",
+"fromMs": 109540,
+"toMs": 110220
+},
+{
+"text": "і",
+"fromMs": 110220,
+"toMs": 110280
+}
+]
+},
+{
+"startMs": 110280,
+"endMs": 110820,
+"tokens": [
+{
+"text": "поведінкою?",
+"fromMs": 110280,
+"toMs": 110820
+}
+]
+},
+{
+"startMs": 111220,
+"endMs": 111720,
+"tokens": [
+{
+"text": "Першого",
+"fromMs": 111220,
+"toMs": 111360
+},
+{
+"text": "клієнта.",
+"fromMs": 111360,
+"toMs": 111720
+}
+]
+}
+]

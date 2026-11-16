@@ -1,0 +1,109 @@
+{
+ "source": "nv/raw.mov",
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "duration_s": 112.04,
+ "duration_frames": 3361,
+ "overlays": [
+  {
+   "id": "01_headlines",
+   "type": "headline_montage",
+   "anchor": "Що ви знаєте про скандал в NVIDIA",
+   "anchor_t": 0.0,
+   "start": 10,
+   "end": 154,
+   "placement": "full-screen, scrim 55%",
+   "subs": "on",
+   "detail": "8 скріншотів 01–08, по 18 кадрів (0.6 с), zoom 1.00→1.05, нахил ±2°, ширина 85%"
+  },
+  {
+   "id": "02_counter",
+   "type": "counter_plate",
+   "anchor": "На 4 мільярди 800 мільйонів доларів",
+   "anchor_t": 10.74,
+   "start": 318,
+   "end": 423,
+   "placement": "full-screen, оливковий #30381F",
+   "subs": "PAUSED",
+   "detail": "лічильник 0 → 4 800 000 000 за 1.2 с; підпис «доларів. Стільки чипів Nvidia купила Megaspeed»"
+  },
+  {
+   "id": "03_timeline",
+   "type": "timeline",
+   "anchor": "8 листопада / 12-го / 3-го і 10-го грудня",
+   "anchor_t": 15.34,
+   "start": 456,
+   "end": 1048,
+   "placement": "нижня третина, scrim 40%",
+   "subs": "on",
+   "detail": "вузол 1 @15.3 «8 листопада — розслідування»; вузол 2 @17.9 «12 листопада — відставка»; вузол 3 @25.4 «3 і 10 грудня — Сенат», золотий + пульс"
+  },
+  {
+   "id": "04_crash",
+   "type": "line_chart",
+   "anchor": "Акції обвалилися / втратила сотні мільярдів",
+   "anchor_t": 20.4,
+   "start": 608,
+   "end": 742,
+   "placement": "верхня зона, scrim 40%",
+   "subs": "on",
+   "detail": "лінія падає зліва направо, малювання 1 с, без осей і сітки; підпис — див. питання нижче"
+  },
+  {
+   "id": "05_attention",
+   "type": "two_cards",
+   "anchor": "Наша увага саме так працює",
+   "anchor_t": 37.96,
+   "start": 1135,
+   "end": 1372,
+   "placement": "центр, scrim 45%",
+   "subs": "on",
+   "detail": "ліва «Схема експортного контролю» сіра 35%; права «Роман із підозрюваною в шпигунстві» яскрава, scale 1.1, один пульс @41.5 с"
+  },
+  {
+   "id": "06_cjm",
+   "type": "cjm_scheme",
+   "anchor": "Шлях клієнтів / Кастомер Джорні Меп",
+   "anchor_t": 53.9,
+   "start": 1612,
+   "end": 1800,
+   "placement": "full-screen, бежевий #F2E9DA",
+   "subs": "PAUSED",
+   "detail": "5 етапів: Побачив → Зацікавився → Купив → Повернувся → Порекомендував; поява по 0.3 с, стрілки домальовуються"
+  },
+  {
+   "id": "07_checklist",
+   "type": "checklist",
+   "anchor": "Якої саме поведінки ви хочете",
+   "anchor_t": 71.78,
+   "start": 2148,
+   "end": 2859,
+   "placement": "центр, scrim 45%",
+   "subs": "on",
+   "detail": "6 пунктів @74.7 / 77.2 / 78.6 / 81.2 / 84.3 / 90.0; попередні тьмяніють до 50%"
+  },
+  {
+   "id": "08a_quiet",
+   "type": "quiet_shots",
+   "anchor": "Бо шлях вашого клієнта існує в будь-якому разі",
+   "anchor_t": 98.56,
+   "start": 2960,
+   "end": 3095,
+   "placement": "full-screen, scrim 55%",
+   "subs": "PAUSED",
+   "detail": "09 (1 с) → 10 (1 с) → 11 (1 с) → 12 «no conclusive proof» (1.5 с), повільний zoom"
+  },
+  {
+   "id": "08b_final",
+   "type": "final_plate",
+   "anchor": "Чи ви просто слідуєте сліпо",
+   "anchor_t": 106.88,
+   "start": 3100,
+   "end": 3361,
+   "placement": "full-screen, бежевий",
+   "subs": "PAUSED",
+   "detail": "Lora по центру: «Шлях вашого клієнта існує завжди. Питання — хто його будує»"
+  }
+ ]
+}

@@ -1,6 +1,8 @@
 import { Composition } from "remotion";
 import { Reel } from "./Reel";
 import { COFFEE_DURATION, CoffeeReel } from "./coffee/CoffeeReel";
+import { NvidiaReel } from "./nvidia/NvidiaReel";
+import { NVIDIA_DURATION } from "./nvidia/theme";
 import { TRADES_DURATION, TradesReel } from "./trades/TradesReel";
 
 export const MyComposition = () => {
@@ -26,6 +28,14 @@ export const MyComposition = () => {
         id="CoffeeReel"
         component={CoffeeReel}
         durationInFrames={COFFEE_DURATION}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+      <Composition
+        id="NvidiaReel"
+        component={NvidiaReel}
+        durationInFrames={NVIDIA_DURATION}
         fps={30}
         width={1080}
         height={1920}

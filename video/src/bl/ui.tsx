@@ -158,7 +158,9 @@ export const Title: React.FC<{
             letterSpacing: 2,
             color: "#FFFFFF",
             lineHeight: 1.16,
-            textShadow: "0 4px 26px rgba(20,18,15,0.75)",
+            WebkitTextStroke: "1.4px rgba(20,18,15,0.5)",
+            textShadow:
+              "0 0 4px rgba(20,18,15,0.9), 0 4px 14px rgba(20,18,15,0.85), 0 10px 44px rgba(20,18,15,0.6)",
           }}
         >
           {l}
@@ -247,11 +249,12 @@ export const Note: React.FC<{
           style={{
             fontFamily: SERIF,
             fontStyle: "italic",
-            fontWeight: 600,
-            fontSize: 34,
-            lineHeight: 1.42,
-            color: i === 0 ? "#FFFFFF" : WARM,
-            textShadow: "0 3px 16px rgba(20,18,15,0.65)",
+            fontWeight: 700,
+            fontSize: 39,
+            lineHeight: 1.44,
+            color: i === 0 ? INK : WARM,
+            textShadow:
+              "0 0 14px rgba(246,241,232,0.95), 0 0 4px rgba(246,241,232,0.95), 0 2px 3px rgba(246,241,232,0.9)",
           }}
         >
           {l}

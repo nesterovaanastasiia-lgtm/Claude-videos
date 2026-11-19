@@ -16,7 +16,7 @@ const Page: React.FC<{ text: string }> = ({ text }) => {
         position: "absolute",
         left: 90,
         width: 900,
-        top: 1150,
+        top: 1200,
         textAlign: "center",
         opacity: o,
       }}
@@ -26,11 +26,12 @@ const Page: React.FC<{ text: string }> = ({ text }) => {
           fontFamily: SERIF,
           fontStyle: "italic",
           fontWeight: 600,
-          fontSize: 50,
+          fontSize: 54,
           lineHeight: 1.26,
           color: "#FFFFFF",
+          WebkitTextStroke: "1.2px rgba(20,18,15,0.55)",
           textShadow:
-            "0 2px 10px rgba(20,18,15,0.85), 0 6px 34px rgba(20,18,15,0.6)",
+            "0 0 3px rgba(20,18,15,0.95), 0 3px 10px rgba(20,18,15,0.9), 0 8px 40px rgba(20,18,15,0.65)",
         }}
       >
         {text}

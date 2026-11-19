@@ -22,7 +22,25 @@ export const PeriodicCard: React.FC<{
     extrapolateLeft: "clamp",
     extrapolateRight: "clamp",
   });
-  const cells = Array.from({ length: 90 });
+  // The real silhouette of the table: short first rows, the two long rows, and
+  // the detached block underneath.
+  const rows: [number, number][][] = [
+    [[1, 1], [18, 18]],
+    [[1, 2], [13, 18]],
+    [[1, 2], [13, 18]],
+    [[1, 18]],
+    [[1, 18]],
+    [[1, 18]],
+    [[1, 18]],
+  ];
+  const cells: { r: number; c: number }[] = [];
+  rows.forEach((spans, ri) =>
+    spans.forEach(([a, b]) => {
+      for (let c = a; c <= b; c++) cells.push({ r: ri + 1, c });
+    }),
+  );
+  for (let r = 9; r <= 10; r++)
+    for (let c = 4; c <= 18; c++) cells.push({ r, c });
 
   return (
     <Card {...p} caption="ТАБЛИЦЯ МЕНДЕЛЄЄВА">
@@ -33,19 +51,20 @@ export const PeriodicCard: React.FC<{
           background: PAPER,
           display: "grid",
           gridTemplateColumns: "repeat(18, 1fr)",
+          gridTemplateRows: "repeat(10, 1fr)",
           gap: 3,
-          padding: 16,
+          padding: "20px 18px",
           boxSizing: "border-box",
-          alignContent: "center",
         }}
       >
-        {cells.map((_, i) => {
+        {cells.map((cell, i) => {
           const on = i / cells.length < lit;
           return (
             <div
-              key={i}
+              key={`${cell.r}-${cell.c}`}
               style={{
-                aspectRatio: "1",
+                gridRow: cell.r,
+                gridColumn: cell.c,
                 borderRadius: 2,
                 background: on ? "rgba(28,26,23,0.78)" : "rgba(28,26,23,0.12)",
               }}

@@ -50,7 +50,7 @@ export const SANS = "Manrope";
 /** Warm, filmic, muted — the reference's register. */
 export const INK = "#1C1A17";
 export const PAPER = "#F6F1E8";
-export const WARM = "#C4694A";
+export const WARM = "#9C4524";
 
 export const WIDTH = 1080;
 export const HEIGHT = 1920;

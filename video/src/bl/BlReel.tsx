@@ -229,12 +229,12 @@ const beats: Beat[] = [
     ),
   },
   {
-    name: "19 · Урок",
+    name: "19 · Навчання",
     from: S(148.0),
     to: S(158.8),
     el: (
-      <Card right={70} top={TOP} width={CARD_W} height={400} tilt={1.5} caption="РЕМБРАНДТ, «УРОК АНАТОМІЇ»">
-        <CardImg file="art_lesson.jpg" seconds={12} />
+      <Card right={70} top={TOP} width={CARD_W} height={400} tilt={1.5} caption="АЛЬБЕРТ АНКЕР, «СІЛЬСЬКА ШКОЛА»">
+        <CardImg file="art_teach.jpg" seconds={12} />
       </Card>
     ),
   },

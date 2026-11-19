@@ -2,6 +2,7 @@ import { Composition } from "remotion";
 import { Reel } from "./Reel";
 import { COFFEE_DURATION, CoffeeReel } from "./coffee/CoffeeReel";
 import { BL_DURATION, BlReel } from "./bl/BlReel";
+import { CrPart, partDuration } from "./cr/CrReel";
 import { AristotleReel } from "./aristotle/AristotleReel";
 import { AR_DURATION } from "./aristotle/ui";
 import { NvidiaReel } from "./nvidia/NvidiaReel";
@@ -43,6 +44,18 @@ export const MyComposition = () => {
         width={1080}
         height={1920}
       />
+      {[1, 2, 3, 4, 5].map((n) => (
+        <Composition
+          key={n}
+          id={`CrPart${n}`}
+          component={CrPart}
+          defaultProps={{ part: n }}
+          durationInFrames={partDuration(n)}
+          fps={30}
+          width={1080}
+          height={1920}
+        />
+      ))}
       <Composition
         id="BlReel"
         component={BlReel}

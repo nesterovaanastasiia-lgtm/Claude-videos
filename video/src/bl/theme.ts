@@ -55,3 +55,26 @@ export const WARM = "#9C4524";
 export const WIDTH = 1080;
 export const HEIGHT = 1920;
 export const FPS = 30;
+
+/** Heavy condensed display face for meme captions; Anton has no Cyrillic. */
+const memeHandle = delayRender("Loading Oswald");
+Promise.all(
+  (
+    [
+      ["cyrillic", CYRILLIC],
+      ["latin", LATIN],
+    ] as const
+  ).map(([subset, unicodeRange]) =>
+    loadFont({
+      family: "Oswald",
+      url: staticFile(`bl-fonts/Oswald-${subset}.woff2`),
+      weight: "400 700",
+      format: "woff2",
+      unicodeRange,
+    }),
+  ),
+)
+  .then(() => continueRender(memeHandle))
+  .catch(() => continueRender(memeHandle));
+
+export const MEME = "Oswald";
